@@ -1,0 +1,32 @@
+section {
+    border: chartreuse solid 3px;
+    margin-top: 2%;
+    background-color: rgb(227, 245, 244);
+}
+
+body {
+    background-color: darkslategray;
+}
+
+/* using id tags for the cover photo and the profile picture, if applied to the class elements, effects do not work.  */
+
+/* css for the cover photo */
+#backgroundimg {
+    z-index: 1;
+    margin-bottom: -14%;
+    
+
+}
+
+/* css for the profile picture */
+ #profileimg {
+    position: relative;
+    left: 1%;
+    z-index: 2;
+    height: auto;
+    width: 13%;
+    border-radius: 50%;
+    border: chartreuse solid 2px;
+    margin-bottom: -2%;
+}
+
