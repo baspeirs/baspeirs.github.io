@@ -1,6 +1,6 @@
 section {
     border: chartreuse solid 3px;
-    margin-top: 2%;
+    margin-top: 3%;
     background-color: rgb(227, 245, 244);
 }
 
@@ -13,7 +13,7 @@ body {
 /* css for the cover photo */
 #backgroundimg {
     z-index: 1;
-    margin-bottom: -14%;
+    margin-bottom: -10%;
     
 
 }
@@ -30,3 +30,7 @@ body {
     margin-bottom: -2%;
 }
 
+h1, h2, h3 {
+    text-align: center;
+
+}
