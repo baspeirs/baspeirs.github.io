@@ -2,10 +2,15 @@ section {
     border: chartreuse solid 3px;
     margin-top: 3%;
     background-color: rgb(227, 245, 244);
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    padding: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 body {
-    background-color: darkslategray;
+    background-color: black;
 }
 
 /* using id tags for the cover photo and the profile picture, if applied to the class elements, effects do not work.  */
@@ -30,7 +35,20 @@ body {
     margin-bottom: -2%;
 }
 
-h1, h2, h3 {
+h1 {
     text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: black;
+    color: white;
+    margin-bottom: 3%;
+    font-size: 48pt;
 
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: black;
+    color: white;
+    
 }
