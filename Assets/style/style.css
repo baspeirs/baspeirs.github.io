@@ -1,16 +1,22 @@
-section {
-    border: chartreuse solid 3px;
-    margin-top: 3%;
-    background-color: rgb(227, 245, 244);
-    text-align: center;
+.textContent {
+    /* background-color: rgb(227, 245, 244);
+    text-align: center; */
     font-family: 'Teko', sans-serif;
-    padding: 1%;
-    margin-left: 3%;
-    margin-right: 3%;
+    /* padding: 1%; */
+}
+
+.contact {
+    background-color: rgb(227, 245, 244);
+    font-family: 'Teko', sans-serif;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 body {
-    background-color: black;
+    background-color: black;   
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* using id tags for the cover photo and the profile picture, if applied to the class elements, effects do not work.  */
@@ -31,8 +37,12 @@ body {
     height: auto;
     width: 13%;
     border-radius: 50%;
-    border: chartreuse solid 2px;
+    border: white solid 3px;
     margin-bottom: -2%;
+}
+
+#hello {
+    font-size: 35px;
 }
 
 h1 {
@@ -41,8 +51,9 @@ h1 {
     background-color: black;
     color: white;
     /* margin-bottom: 3%; */
-    font-size: 48pt;
-
+    font-size: 72pt;
+    margin: 25px;
+    font-weight: 500;
 }
 
 h2 {
@@ -61,3 +72,95 @@ h2 {
     align-items: center;
 }
 
+.expSkillsAndInterests {
+    color: ivory;
+    margin: auto;
+    margin-top: 20px;
+    height: 344px;
+}
+
+footer {
+    background-color: ivory;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer p {
+    margin-top: 10px;
+}
+
+#xp {
+    border-right: white solid;
+    text-align: center;
+}
+
+#skills {
+    text-align: center;
+    line-height: 28px;
+}
+
+#interests {
+    border-left: white solid;
+    text-align: center;
+    line-height: 28px;
+}
+
+#bonus h2 {
+    font-size: 48px;
+    margin: 20px;
+}
+
+/* ------------- PORTFOLIO PAGE CSS*/
+#portfolio-items {
+color:white;
+text-align: center;
+}
+#portfolio-items img{
+ height: 300px;
+ width: 300px;
+ border-radius: 50%;
+ border: white solid 3px;
+ background:white;
+ object-fit: cover;
+}
+
+.portfolio-section {
+    height: 275px;
+}
+
+.portfolio-buttons {
+    position: absolute;
+    bottom: 0;
+}
+
+#portfolio-items .btn {
+    margin: 10px;
+}
+
+#portfolio-items h2 {
+    margin-top: 20px;
+}
+
+/* CSS for contact me page */
+
+.contact-image {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+#contact-content {
+    text-align: center;
+}
+
+#contact-container {
+    height: 420px;
+}
