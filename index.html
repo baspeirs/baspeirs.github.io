@@ -6,115 +6,54 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Rajdhani:500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rajdhani:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Assets/style/style.css">
-    <link rel="stylesheet" href="./Assets/style/reset.css">
     <title>Bryce Speirs</title>
 </head>
 <body>
-  <!-- navbar in the header of the page -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Bryce Speirs</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
-
-    <!-- section for the cover photo // photo id=backgroundimg ; id needed for css page -->
-    <div class="coverimg">
-      <img id="backgroundimg" src="./Assets/photos/Guitars2.jpg" alt="background img" length="auto" width="100%">  
-    </div>
-
-    <!-- section for the profile picture // photo id=profileimg ; id needed for css page -->
-    <div class="faceimg">
-      <img id ="profileimg" src="Assets/photos/1me.jpg" alt="photo of me">
-    </div>
-    
-    <!-- begin page main content  -->
-
-    <!-- intro section with larger paragraph content -->
-    <section class="container">
-      <div class="row">
-        <div class="col-lg-12"><h1>Bryce Speirs</h1></div>
-      </div>
-      <div class ="row">
-        <div class="col-lg-6 textContent">
-          <div class="card text-white bg-dark mb-3" style="max-width: 100rem;">
-            <div class="card-header"><h2>Bio</h2></div>
-            <div class="card-body">
-              <h5 class="card-text"><b id="hello">Hello</b> and welcome to my page! Here you can learn a little bit about me, view some of my work, and contact me! I have dipped my toes into a few professions, however, I am currently diving into the world of computer science to become a software engineer!</h5>
-            </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Bryce Speirs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav">
+            <a class="nav-item active nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </div>
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          </div>
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="card text-white bg-secondary mb-3" style="max-width: 50rem;">
-            <div class="card-header"><h2>About</h2></div>
-            <div class="card-body">
-              <h5 class="card-title">Born:</h5>
-              <p class="card-text">27 Jun 1993 in Des Moines, IA</p>
-              <h5 class="card-title">Education:</h5>
-              <p class="card-text">Abraham Lincon High School, Diploma, Class of 2011 <br>Des Moines Area Community College, Associates, Class of 2016</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      </nav>
+</header>
+
+<video autoplay muted loop id="hero-video">
+  <source src="./Assets/photos/Pexels Videos 2611250 (1).mp4" type="video/mp4">  
+</video>
+
+<article class="hero-body">
+    <section class="welcome">
+        <h1>Bryce Speirs</h1>
+        <h2>Full Stack Web Developer</h2>
+        <p id="port-intro">Check out my portfolio</p>
+        <a href="./portfolio.html"><button id="home-button"><p>View Portfolio</p></button></a>
     </section>
+</article>
 
-    <section>
-      <div class="row">
-        <div class="col-12" id="bonus"><h2>Bonus Info</h2></div>
-
-      </div>
-    </section>
-
-   <section class="container">
-    <div class="row">
-      <div class="col-lg-4 expSkillsAndInterests" id="xp"><h2>Experience</h2>
-        <div class="row">
-          <div class="col-12"><strong>Jimmy Johns</strong><br>Assistant Manager / In-shop Associate / Driver <br><em>2011 - 2018</em><br><br></div>
-        </div>
-        <div class="row">
-          <div class="col-12"><strong>Synchrony Financial</strong> <br>Collections Rep / Collections Account Manager <br><em>2018-2020</em> <br><br></div>
-        </div>
-        <div class="row">
-          <div class="col-12"><strong>Walgreen's Boots Alliance </strong> <br>Pharmacy Tech <br><em>2020-Present</em> <br></div>
-        </div>
-      </div>
-      <div class="col-lg-4 expSkillsAndInterests" id="skills"><h2>Skills</h2>
-        <div class="row">
-          <div class="col-12">Microsoft Office <br>HTML, CSS, JavaScript/jQuery <br>Workforce Management <br>Python Programming <br>Project Management</div>
-        </div>
-      </div>
-      <div class="col-lg-4 expSkillsAndInterests" id="interests"><h2>Interests</h2>
-      <div class="row">
-        <div class="col-12">
-          <p>Baseball <br>Bowling <br>Skateboarding <br>Video Games <br>Computer Science <br>Dungeons & Dragons <br>Fantacy Novels <br>Music <br>Doggos <br>Memes </p>
-        </div>
-      </div>
-      </div>
-    </div>
-   </section>
-
-   <footer>
-    <p>2020 Bryce Speirs <br></p>
-  </footer>
-
-
+<footer>
+  <p id="signature">2020 Bryce Speirs</p>
+  <p id="social-media">Social Media Links:</p>
+  <div id="contact-links">
+    <div class="contact-image"><a href="https://github.com/baspeirs"><img src="./Assets/photos/github (1).svg" alt="GitHub Logo" id="github-logo"></a></div>
+    <div class="contact-image"><a href="https://www.linkedin.com/in/bryce-speirs-bb1319199/"><img src="./Assets/photos/linkedin.svg" alt="GitHub Logo" id="linkedin-logo"></a></div>
+    <div class="contact-image"><a href="mailto:baspeirs@gmail.com"><img src="./Assets/photos/mail.svg" alt="GitHub Logo" id="mail-logo"></a></div>
+  </div>
+  <p id="phone-number">Contact Number: 515-954-9221</p>
+</footer>
 
 </body>
 </html>

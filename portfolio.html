@@ -1,124 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bryce Speirs</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Assets/style/style.css">
-    <link rel="stylesheet" href="./Assets/style/reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Rajdhani:500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rajdhani:500&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani:500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Assets/style/style.css">
+  <title>Bryce Speirs</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Bryce Speirs</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Bryce Speirs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </div>
+          <div class="navbar-nav">
+            <a class="nav-item active nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          </div>
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+          </div>
+        </div>
+      </nav>
+</header>
 
-    <!-- top of page -->
-
-<!-- section for the cover photo // photo id=backgroundimg ; id needed for css page -->
-
-
-<div class="coverimg">
-  <img src="./Assets/photos/Guitars2.jpg" alt="background img" length="auto" width="100%">  
-</div>
-
-<!-- begin page content -->
-<article class="container">
-  <section class="row">
-    <div class="col-12"><h1>Portfolio</h1></div>
-  </section>
-  <section class="row" id="portfolio-items">
-   <div class="col-4" id="dungeonBuddy"><div><a href="https://baspeirs.github.io/DungeonBuddy/"><img src="./Assets/photos/DungBud.PNG" alt="Image of Dungeon Buddy App"></a></div>
-    <div class="row">
-      <div class="col-12 portfolio-section">
-        <h2>Dungeon Buddy</h2>
-        <p>This is a Javascript file, and a remake of the Python dice, but with some extra content for D&D fans including a stat generator and a random character generator</p>
-        <div class="portfolio-buttons"><a href="https://github.com/baspeirs/DungeonBuddy"><button type="button" class="btn btn-dark">GitHub Repo</button></a><a href="https://baspeirs.github.io/DungeonBuddy/"><button type="button" class="btn btn-dark">Dungeon Buddy Page</button></a></div>      
-      </div>
+<article id="page-body">
+  <h1 class="container">Portfolio</h1>
+  <h2 class="container">Skills</h2>
+  <section class="container" id="skills">
+    
+    <div id="skills-1">
+      
+      <ul>
+        <li>JavaScript / Node.JS</li>
+        <li>MySQL / Sequelize</li>
+        <li>MongoDB</li>
+      </ul>
     </div>
-  </div>
-   <div class="col-4" id="Quickieoke"><div><a href="https://baspeirs.github.io/teamKaraokeApp/"><img src="./Assets/photos/Quickieoke.PNG" alt="Image of the Quickieoke App"></a></div>
-    <div class="row">
-      <div class="col-12 portfolio-section">
-        <h2>Quickieoke</h2>
-        <p>My first team project, using Javascript, The AudioDB API, and LyricsOVH API to create a fun karaoke app</p>
-        <div class="portfolio-buttons"><a href="https://github.com/baspeirs/teamKaraokeApp"><button type="button" class="btn btn-dark">GitHub Repo</button></a><a href="https://baspeirs.github.io/teamKaraokeApp/"><button type="button" class="btn btn-dark">Quickieoke</button></a></div>      
-      </div>
+    <div id="skills-2">
+      <ul>
+        <li>HTML5 / CSS3</li>
+        <li>Project Management</li>
+        <li>Python</li>
+      </ul>
     </div>
-  </div>
-   <div class="col-4" id="weatherApp"><div><a href="https://baspeirs.github.io/homework6/"><img src="./Assets/photos/WeatherApp.PNG" alt="Image of Weather App"></a></div>
-    <div class="row">
-      <div class="col-12 portfolio-section">
-        <h2>Weather App</h2>
-        <p>This is a homework from my coding bootcamp that turned out really well. This weather app using the OpenWeather API to search for daily and weekly weather just by searching the name of the city!</p>
-        <div class="portfolio-buttons"><a href="https://github.com/baspeirs/homework6"><button type="button" class="btn btn-dark">GitHub Repo</button></a><a href="https://baspeirs.github.io/homework6/"><button type="button" class="btn btn-dark">Weather App</button></a></div>      
-      </div>
+    <div id="skills-3">
+      <ul>
+        <li>Bootstrap / CSS grid</li>
+        <li>Teamwork</li>
+        <li>Leadership</li>
+      </ul>
     </div>
-  </div>
+    <div id="skills-4">
+      <ul>
+        <li>Git Source Controll</li>
+        <li>Adaptablility</li>
+        <li>Customer Service</li>
+      </ul>
+    </div>
   </section>
 
-  <section class="row" id="portfolio-items">
-    <div class="col-4" id="dungeonBuddy"><div><a href="https://github.com/baspeirs/homework9"><img src="./Assets/photos/readmeGenerator.PNG" alt="Image of Dungeon Buddy App"></a></div>
-     <div class="row">
-       <div class="col-12 portfolio-section">
-         <h2>README Generator</h2>
-         <p>This is a terminal based application for generating a good README.md file! We all know README's can be a pain, but this app will ask you a few basic quetions using the Inquirer package and generate one for you!</p>
-         <div class="portfolio-buttons"><a href="https://github.com/baspeirs/homework9"><button type="button" class="btn btn-dark">GitHub Repo</button></a><button type="button" class="btn btn-dark">No Page for Application</button></div>      
-       </div>
-     </div>
-   </div>
-    <div class="col-4" id="Quickieoke"><div><a href="https://github.com/baspeirs/homework11"><img src="./Assets/photos/noteTaker.PNG" alt="Image of the Quickieoke App"></a></div>
-     <div class="row">
-       <div class="col-12 portfolio-section">
-         <h2>Note Taker</h2>
-         <p>This is my first Project deployed with Heroku! This is an application for taking notes to practice my skills coding servers with Node.js and saving information to an API using JSON, and deploying the front end and back end code!</p>
-         <div class="portfolio-buttons"><a href="https://github.com/baspeirs/homework11"><button type="button" class="btn btn-dark">GitHub Repo</button></a><a href="https://infinite-meadow-35708.herokuapp.com/"><button type="button" class="btn btn-dark">Note Taker Website</button></a></div>      
-       </div>
-     </div>
-   </div>
-    <div class="col-4" id="weatherApp"><div><a href=""><img src="./Assets/photos/coming-soon.PNG" alt="coming soon!"></a></div>
-     <div class="row">
-       <div class="col-12 portfolio-section">
-         <h2>Project Coming Soon!</h2>
-         <p></p>
-         <div class="portfolio-buttons"><a href=""><button type="button" class="btn btn-dark">Nothing yet</button></a><a href=""><button type="button" class="btn btn-dark">Please Wait</button></a></div>      
-       </div>
-     </div>
-   </div>
-   </section>
- 
+  <h2 class="container" id="proj-head">Projects</h2>
+  <section class="container proj-div">
+    <div><img class="proj-img" src="./Assets/photos/galaxyRaider.PNG" alt="image of galaxy raider home page"></div>
+    <div class="proj-description">
+      <h3 class="proj-name">Galaxy Raider</h3>
+      <p>Galaxy Raider is an interactive space crawler game that allows the user to explore the galaxy and gather recources for their home planet. But be warned, not all planets are friendly! Like all games, there are tons of features I would like to add, however this was a group project with a limited deadline, however, the game is playable! Feel free to follow the link and play a round or two!</p>
+    </div>
+    <div id="links">
+      <a class="portfolio-links" href="https://bc-group-project2.herokuapp.com/"><button class="link-button" id="galaxy-play">Play Galaxy Raider</button></a>
+      <a class="portfolio-links" href="https://github.com/baspeirs/project2"><button class="link-button" id="galaxy-code">Visit the Repo</button></a>
+    </div>
+  </section>
+
+  <section class="container proj-div">
+    <div><img class="proj-img" src="./Assets/photos/burger.PNG" alt="image of Burger Logger home page"></div>
+    <div class="proj-descripion">
+      <h3 class="proj-name">Burger Logger</h3>
+      <p>This application is a homework assignment for saving burgers you would like to eat, and burgers you have already tried. The data is stored in a database using SQL and the application is hosted on Heroku</p>
+    </div>
+    <div id="links">
+      <a class="portfolio-links" href="https://nameless-inlet-77869.herokuapp.com/"><button class="link-button" id="galaxy-play">Log Your Burgers</button></a>
+      <a class="portfolio-links" href="https://github.com/baspeirs/Eat_Da_Burger-Homework13"><button class="link-button" id="galaxy-code">Visit the Repo</button></a>
+    </div>
+  </section>
+
+  <section class="container proj-div">
+    <div><img class="proj-img" src="./Assets/photos/readmeGenerator.PNG" alt="image of Readme Generator"></div>
+    <div class="proj-description">
+      <h3 class="proj-name">ReadMe Generator</h3>
+      <p>We all know that writing out a README can be a pain, so this terminal based application will ask the user several questions to automatially generate a good README.md file! To use this application, you will need to visit the repo, clone the project, and install the dependencies.</p>
+    </div>
+    <div id="links">
+      <a class="portfolio-links" href="#"><button class="link-button" id="galaxy-play">Terminal App (no page)</button></a>
+      <a class="portfolio-links" href="https://github.com/baspeirs/homework9"><button class="link-button" id="galaxy-code">Visit the Repo</button></a>
+    </div>
+  </section>
+
+  <section class="container proj-div">
+    <div><img class="proj-img" src="./Assets/photos/WeatherApp.PNG" alt="image of galaxy raider home page"></div>
+    <div class="proj-description">
+      <h3 class="proj-name">Open Weather App</h3>
+      <p>This weather application will allow you to search any city to gather the local weather! Your search data will also be stored in local storage so you can revisit previous searches!</p>
+    </div>
+    <div id="links">
+      <a class="portfolio-links" href="https://baspeirs.github.io/homework6/"><button class="link-button" id="galaxy-play">Check out the Weather</button></a>
+      <a class="portfolio-links" href="https://github.com/baspeirs/homework6"><button class="link-button" id="galaxy-code">Visit the Repo</button></a>
+      
+      
+    </div>
+  </section>
+
+  <section class="container proj-div">
+    <div><img class="proj-img" src="./Assets/photos/DungBud.PNG" alt="image of galaxy raider home page"></div>
+    <div class="proj-description">
+      <h3 class="proj-name">Dungeon Buddy</h3>
+      <p>Dungeon Buddy is an application designed to help you with your Dungeons & Dragons adventures! This is my first free lance project and is currently under construction.</p>
+    </div>
+    <div id="links">
+      <a class="portfolio-links" href="https://baspeirs.github.io/DungeonBuddy/"><button class="link-button" id="galaxy-play">Get Your D&D On</button></a>
+      <a class="portfolio-links" href="https://github.com/baspeirs/DungeonBuddy"><button class="link-button" id="galaxy-code">Visit the Repo</button></a>
+    </div>
+  </section>
+
+  <section class="container" id="bottom-proj-div">
+    <div><img class="proj-img" src="./Assets/photos/quickieoke.PNG" alt="image of galaxy raider home page"></div>
+    <div class="proj-description">
+      <h3 class="proj-name">Quickieoke</h3>
+      <p>Quickieoke is application used to quickly supply you with song lyrics and band information to help you with your karaoke fun! Quickieoke is the first group project assigned by the UCF Coding Bootcamp</p>
+    </div>
+    <div id="links">
+      <a class="portfolio-links" href="https://baspeirs.github.io/teamKaraokeApp/"><button class="link-button" id="galaxy-play">Get Singin'</button></a>
+      <a class="portfolio-links" href="https://github.com/baspeirs/teamKaraokeApp"><button class="link-button" id="galaxy-code">Visit the Repo</button></a>
+    </div>
+  </section>
 
 </article>
 
-
 <footer>
-  <p>2020 Bryce Speirs <br></p>
+  <p id="signature">2020 Bryce Speirs</p>
+  <p id="social-media">Social Media Links:</p>
+  <div id="contact-links">
+    <div class="contact-image"><a href="https://github.com/baspeirs"><img src="./Assets/photos/github (1).svg" alt="GitHub Logo" id="github-logo"></a></div>
+    <div class="contact-image"><a href="https://www.linkedin.com/in/bryce-speirs-bb1319199/"><img src="./Assets/photos/linkedin.svg" alt="GitHub Logo" id="linkedin-logo"></a></div>
+    <div class="contact-image"><a href="mailto:baspeirs@gmail.com"><img src="./Assets/photos/mail.svg" alt="GitHub Logo" id="mail-logo"></a></div>
+  </div>
+  <p id="phone-number">Contact Number: 515-954-9221</p>
 </footer>
-
-
-
 
 </body>
 </html>
