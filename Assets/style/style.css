@@ -4,14 +4,14 @@ article {
 
 h1 {
     font-family: 'Rajdhani', sans-serif;
-    color: ivory;
+    color: white;
     font-size: 72pt;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 h2 {
     font-family: 'Rajdhani', sans-serif;
-    color: ivory;
+    color: white;
     font-size: 42px;
     font-weight: 500;
     padding-left: 5px;
@@ -32,7 +32,6 @@ ul {
 
 li {
     margin-bottom: 15px;
-    /*display: flex;*/
     font-size: 18px;
     text-align: center;
     padding: 5px;
@@ -55,11 +54,10 @@ ul li:nth-child(3) {
 
 footer {
     background-color: black;
-    color: ivory;
-    /* margin-top: auto; */
+    color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     display: grid;
@@ -113,6 +111,10 @@ footer p {
 }
 /* =========== HOME PAGE STYLE ================ */
 
+#hero-section {
+    min-height: 87vh;
+}
+
 #hero-video {
     position: fixed;
     z-index: -1;
@@ -131,14 +133,14 @@ footer p {
 .welcome {
     color: white;
     text-align: center;
-    padding-top: 75px;
-    /* padding-left: 100px; */
+    padding-top: 23vh;
 }
 
 #port-intro {
     font-size: 32px;
     padding-left: 5px;
     font-family: 'Open Sans', sans-serif;
+    font-weight:300;
 }
 
 #home-button { 
@@ -207,7 +209,6 @@ footer p {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     padding: 20px;
-    margin-bottom: 50px;
 }
 
 .proj-img {
@@ -220,6 +221,13 @@ footer p {
 .proj-description {
     grid-column: 2;
     font-family: 'Open Sans', sans-serif;
+}
+
+.proj-name {
+    font-weight: bold;
+}
+
+#proj-text {
     font-size: 14px;
 }
 
@@ -235,7 +243,7 @@ footer p {
     padding: 5px;
     border-radius: 15px;
     font-family: 'Open Sans', sans-serif;
-    color: ivory;
+    color: white;
     border:none;
     width:250px;
 }
@@ -254,27 +262,28 @@ footer p {
 /* ===== About me Styles ===== */
 
 #top-content {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    padding-top: 20px;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 50px;
 }
 
 #profile-img {
-    width: 250px;
-    height: 250px;
+    width: 168.8px;
+    height: 168.8px;
     border-radius: 50%;
-}
-
-.picture-div {
+    margin: auto;
     grid-column: 1;
 }
 
-#top-text {
-    grid-column: 2;
+#welcome {
+    font-weight: bold;
+    font-size: 40px;
 }
 
 #about-description {
-    background-color: rgba(255, 255, 255, 0.85);
+    grid-column: 2;
     color: black;
     font-size: 20px;
     padding: 10px;
@@ -282,23 +291,53 @@ footer p {
 
 #bottom-content {
     display: grid;
-    grid-template-columns: 5fr 1fr 5fr;
-    padding: 20px;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 #education {
     grid-column: 1;
-    background-color: rgba(255, 255, 255, 0.85);
-    padding-right: 20px;
-    padding: 10px;
+    margin-right: 15px;
 }
 
 #work-xp {
-    grid-column: 3;
+    grid-column: 2;
+}
+
+#bootcamp {
+    margin-bottom: 15px;
     background-color: rgba(255, 255, 255, 0.85);
-    padding-left: 20px;
-    border: solid black;
-    padding: 10px;
+    padding: 15px;
+}
+
+#college {
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 15px;
+}
+
+#high-school {
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 15px;
+}
+
+#JJs {
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+}
+
+#walgreens {
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 15px;
+}
+
+#synchrony {
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 15px;
+}
+
+.spacer {
+    height: 50px;
 }
