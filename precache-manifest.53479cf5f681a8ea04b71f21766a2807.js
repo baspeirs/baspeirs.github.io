@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7d7f438db26008b8f6d0f5386d041e4",
+    "revision": "520ce9e7578c13bf2b52ba112f9240bc",
     "url": "/baspeirs.github.io/index.html"
   },
   {
-    "revision": "e2a6b1ccf3bd01b07229",
+    "revision": "5bac18a2628821ec1575",
     "url": "/baspeirs.github.io/static/css/main.649357c9.chunk.css"
   },
   {
-    "revision": "501db0cdbf27a79452de",
-    "url": "/baspeirs.github.io/static/js/2.e80b64d1.chunk.js"
+    "revision": "4bdf35e48859c446ff02",
+    "url": "/baspeirs.github.io/static/js/2.b19ef10d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/baspeirs.github.io/static/js/2.e80b64d1.chunk.js.LICENSE.txt"
+    "url": "/baspeirs.github.io/static/js/2.b19ef10d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e2a6b1ccf3bd01b07229",
-    "url": "/baspeirs.github.io/static/js/main.e47328f4.chunk.js"
+    "revision": "5bac18a2628821ec1575",
+    "url": "/baspeirs.github.io/static/js/main.637f1a30.chunk.js"
   },
   {
     "revision": "fecba3dfbe3c7f484d4d",
