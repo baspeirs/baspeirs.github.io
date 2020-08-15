@@ -12,7 +12,7 @@ function Portfolio() {
     const projects = [
         {
             title: "Galaxy Raider",
-            imgSrc: "../../assets/photos/galaxyRaider.PNG",
+            imgSrc: "../../../assets/photos/galaxyRaider.PNG",
             imgAlt: "Galaxy Raider home page",
             description: "Explore the galaxy and collect resources to take back to your home planet.. But be warned, not all planets are friendly...",
             page: "https://bc-group-project2.herokuapp.com/",
