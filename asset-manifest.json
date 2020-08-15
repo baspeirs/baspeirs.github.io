@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/baspeirs.github.io/static/css/main.649357c9.chunk.css",
-    "main.js": "/baspeirs.github.io/static/js/main.ed043f6b.chunk.js",
-    "main.js.map": "/baspeirs.github.io/static/js/main.ed043f6b.chunk.js.map",
+    "main.js": "/baspeirs.github.io/static/js/main.24df3304.chunk.js",
+    "main.js.map": "/baspeirs.github.io/static/js/main.24df3304.chunk.js.map",
     "runtime-main.js": "/baspeirs.github.io/static/js/runtime-main.c21b0e5c.js",
     "runtime-main.js.map": "/baspeirs.github.io/static/js/runtime-main.c21b0e5c.js.map",
     "static/js/2.b19ef10d.chunk.js": "/baspeirs.github.io/static/js/2.b19ef10d.chunk.js",
     "static/js/2.b19ef10d.chunk.js.map": "/baspeirs.github.io/static/js/2.b19ef10d.chunk.js.map",
     "index.html": "/baspeirs.github.io/index.html",
-    "precache-manifest.9bcf853a4d0d6b4b213e0a0657d11799.js": "/baspeirs.github.io/precache-manifest.9bcf853a4d0d6b4b213e0a0657d11799.js",
+    "precache-manifest.87393f8cbaff536d05721fdcb1524285.js": "/baspeirs.github.io/precache-manifest.87393f8cbaff536d05721fdcb1524285.js",
     "service-worker.js": "/baspeirs.github.io/service-worker.js",
     "static/css/main.649357c9.chunk.css.map": "/baspeirs.github.io/static/css/main.649357c9.chunk.css.map",
     "static/js/2.b19ef10d.chunk.js.LICENSE.txt": "/baspeirs.github.io/static/js/2.b19ef10d.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.c21b0e5c.js",
     "static/js/2.b19ef10d.chunk.js",
     "static/css/main.649357c9.chunk.css",
-    "static/js/main.ed043f6b.chunk.js"
+    "static/js/main.24df3304.chunk.js"
   ]
 }
