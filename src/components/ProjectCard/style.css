@@ -1,0 +1,30 @@
+.card {
+    margin-bottom: 15px;
+    max-height: 275px;
+}
+
+.card-img {
+    opacity: .3;
+    max-height: 275px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 42px;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.portButton {
+    background-color: rgb(0, 173, 144);
+    color: white;
+    width: 100%;
+    font-size: 26px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}

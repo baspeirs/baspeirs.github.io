@@ -1,0 +1,59 @@
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(105px, 2fr));   
+}
+
+#signature {
+    grid-column: 1;
+}
+
+#social-media {
+    grid-column: 2;
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+#phone-number {
+    grid-column: 4;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+#contact-links {
+    grid-column: 3;
+    display: grid;
+    margin: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 50px));
+}
+
+.contact-image {
+    background-color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 5px;
+    align-content: center;
+
+}
+
+#github-logo {
+    grid-column: 1;
+}
+
+#linkedin-logo {
+    grid-column: 2;
+}
+
+#mail-logo {
+    grid-column: 3;
+}

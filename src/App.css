@@ -1,0 +1,23 @@
+article {
+  min-height: 100%;
+}
+
+h1 {
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  font-size: 72pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  font-size: 42px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+p {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
