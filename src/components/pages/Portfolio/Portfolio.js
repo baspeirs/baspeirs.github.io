@@ -6,13 +6,21 @@ import Footer from "../../Footer/";
 import "./style.css";
 // import Background from "../../Background";
 import ProjectCard from "../../ProjectCard";
-import Badge from "../../Badge"
+import Badge from "../../Badge";
+import DungBud from "../../../assets/photos/DungBud.PNG";
+import GalaxyRaider from "../../../assets/photos/GalaxyRaider.PNG";
+import Burger from "../../../assets/photos/Burger.PNG";
+import NoteTaker from "../../../assets/photos/NoteTaker.PNG";
+import Quickieoke from "../../../assets/photos/Quickieoke.PNG";
+import ReadmeGenerator from "../../../assets/photos/ReadmeGenerator.PNG";
+import WeatherApp from "../../../assets/photos/WeatherApp.PNG";
+
 
 function Portfolio() {
     const projects = [
         {
             title: "Galaxy Raider",
-            imgSrc: "../../../assets/photos/galaxyRaider.PNG",
+            imgSrc: GalaxyRaider,
             imgAlt: "Galaxy Raider home page",
             description: "Explore the galaxy and collect resources to take back to your home planet.. But be warned, not all planets are friendly...",
             page: "https://bc-group-project2.herokuapp.com/",
@@ -20,7 +28,7 @@ function Portfolio() {
         },
         {
             title: "README Generator",
-            imgSrc: "../../assets/photos/readmeGenerator.PNG",
+            imgSrc: ReadmeGenerator,
             imgAlt: "README Generator in action",
             description: "An aplication built with node.js and npm Inquirer which asks a few questions to automatically gnerate a good README.md file",
             page: "",
@@ -28,7 +36,7 @@ function Portfolio() {
         },
         {
             title: "Burger Logger",
-            imgSrc: "../../assets/photos/burger.PNG",
+            imgSrc: Burger,
             imgAlt: "Burger Logger home page",
             description: "An application for you to keep track of your favorite burgers and burgers you wish to try!",
             page: "https://nameless-inlet-77869.herokuapp.com/",
@@ -36,7 +44,7 @@ function Portfolio() {
         },
         {
             title: "Open Weather App",
-            imgSrc: "../../assets/photos/WeatherApp.PNG",
+            imgSrc: WeatherApp,
             imgAlt: "Open Weather App home page",
             description: "An application that allows you to search for a city and get the current weather details and a 5 day forecast.",
             page: "https://baspeirs.github.io/Open-Weather-App/",
@@ -44,7 +52,7 @@ function Portfolio() {
         },
         {
             title: "Dungeon Buddy",
-            imgSrc: "../../assets/photos/DungBud.PNG",
+            imgSrc: DungBud,
             imgAlt: "Dungeon Buddy home hage",
             description: "An application to assist you with your every day Dungeons & Dragons 5th Edition needs!",
             page: "https://baspeirs.github.io/DungeonBuddy/",
@@ -52,7 +60,7 @@ function Portfolio() {
         },
         {
             title: "Note Taker",
-            imgSrc: "../../assets/photos/noteTaker.PNG",
+            imgSrc: NoteTaker,
             imgAlt: "Note Taker home page",
             description: "An application used to take, read, and delete notes",
             page: "https://infinite-meadow-35708.herokuapp.com/",
