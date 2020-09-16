@@ -12,11 +12,8 @@ function Home() {
         <div>
             <div id="hero-section">
             <video autoPlay muted loop id="hero-video">
-<<<<<<< HEAD
                 <source src={Stars} />
-=======
                 <source src="../../../assets/photos/Pexels Videos 2611250 (1).mp4" />
->>>>>>> f6cd5281bc590529dfd5ecf1766d9ac84e5c0a6f
             </video>
 
             <Container>
