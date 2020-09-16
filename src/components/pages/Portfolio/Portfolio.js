@@ -14,10 +14,19 @@ import NoteTaker from "../../../assets/photos/NoteTaker.PNG";
 import Quickieoke from "../../../assets/photos/Quickieoke.PNG";
 import ReadmeGenerator from "../../../assets/photos/ReadmeGenerator.PNG";
 import WeatherApp from "../../../assets/photos/WeatherApp.PNG";
+import InkCentral from "../../../assets/photos/InkCentral.PNG";
 
 
 function Portfolio() {
     const projects = [
+        {
+            title: "Ink Central",
+            imgSrc: InkCentral,
+            imgAlt: "Ink Central",
+            description: "Sign up today to connect with Artists and Canvases alike on this tattoo social network",
+            page: "https://ink-central.herokuapp.com/",
+            github: "https://github.com/kylest0kes/ink_central"
+        },
         {
             title: "Galaxy Raider",
             imgSrc: GalaxyRaider,
@@ -65,6 +74,14 @@ function Portfolio() {
             description: "An application used to take, read, and delete notes",
             page: "https://infinite-meadow-35708.herokuapp.com/",
             github: "https://github.com/baspeirs/Note-Taker"
+        },
+        {
+            title: "Quickieoke",
+            imgSrc: Quickieoke,
+            imgAlt: "Quickieoke",
+            description: "Get singin with this karaoke buddy app",
+            page: "https://baspeirs.github.io/teamKaraokeApp/",
+            github: "https://github.com/baspeirs/teamKaraokeApp"
         }
     ]
 

@@ -1,8 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import GitHubLogo from "../../assets/photos/GitHubLogo.svg";
-import LinkedInLogo from "../../assets/photos/GitHubLogo.svg";
-import EmailLogo from "../../assets/photos/GitHubLogo.svg";
+import LinkedInLogo from "../../assets/photos/LinkedInLogo.svg";
+import EmailLogo from "../../assets/photos/EmailLogo.svg";
 import "./style.css";
 
 function Footer() {

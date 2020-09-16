@@ -9,6 +9,7 @@ import EducationCard from "../../EducationCard";
 import WorkHistoryCard from "../../WorkHistoryCard/";
 import workHistory from "../../../workHistory.json";
 import education from "../../../education.json";
+import BryceSpeirs from "../../../assets/photos/BryceSpeirs.jpg";
 function About() {
     return (
         <div id="page-body">
@@ -23,7 +24,7 @@ function About() {
                 <div id="top-content">
                 <Row>
                         <Column size="2" id="image-holder">
-                                <img id="profile-img" src="../../../assets/photos/1me-x2.jpg" alt="image of me" />
+                                <img id="profile-img" src={BryceSpeirs} alt="Bryce Speirs" />
                         </Column>
                         <Column size="10" id="about-description">
                             <p id="welcome">Hello, welcome to my portfolio!</p>
