@@ -1,23 +1,36 @@
 {
   "files": {
     "main.css": "/baspeirs.github.io/static/css/main.649357c9.chunk.css",
-    "main.js": "/baspeirs.github.io/static/js/main.24df3304.chunk.js",
-    "main.js.map": "/baspeirs.github.io/static/js/main.24df3304.chunk.js.map",
+    "main.js": "/baspeirs.github.io/static/js/main.7fbc5eb0.chunk.js",
+    "main.js.map": "/baspeirs.github.io/static/js/main.7fbc5eb0.chunk.js.map",
     "runtime-main.js": "/baspeirs.github.io/static/js/runtime-main.c21b0e5c.js",
     "runtime-main.js.map": "/baspeirs.github.io/static/js/runtime-main.c21b0e5c.js.map",
-    "static/js/2.b19ef10d.chunk.js": "/baspeirs.github.io/static/js/2.b19ef10d.chunk.js",
-    "static/js/2.b19ef10d.chunk.js.map": "/baspeirs.github.io/static/js/2.b19ef10d.chunk.js.map",
+    "static/js/2.18837800.chunk.js": "/baspeirs.github.io/static/js/2.18837800.chunk.js",
+    "static/js/2.18837800.chunk.js.map": "/baspeirs.github.io/static/js/2.18837800.chunk.js.map",
     "index.html": "/baspeirs.github.io/index.html",
-    "precache-manifest.87393f8cbaff536d05721fdcb1524285.js": "/baspeirs.github.io/precache-manifest.87393f8cbaff536d05721fdcb1524285.js",
+    "precache-manifest.8b5fd946d09a615ba6055e75973ed2f8.js": "/baspeirs.github.io/precache-manifest.8b5fd946d09a615ba6055e75973ed2f8.js",
     "service-worker.js": "/baspeirs.github.io/service-worker.js",
     "static/css/main.649357c9.chunk.css.map": "/baspeirs.github.io/static/css/main.649357c9.chunk.css.map",
-    "static/js/2.b19ef10d.chunk.js.LICENSE.txt": "/baspeirs.github.io/static/js/2.b19ef10d.chunk.js.LICENSE.txt",
+    "static/js/2.18837800.chunk.js.LICENSE.txt": "/baspeirs.github.io/static/js/2.18837800.chunk.js.LICENSE.txt",
+    "static/media/BryceSpeirs.jpg": "/baspeirs.github.io/static/media/BryceSpeirs.4d357514.jpg",
+    "static/media/Burger.PNG": "/baspeirs.github.io/static/media/Burger.18c162a3.PNG",
+    "static/media/DungBud.PNG": "/baspeirs.github.io/static/media/DungBud.3b07b790.PNG",
+    "static/media/EmailLogo.svg": "/baspeirs.github.io/static/media/EmailLogo.20e8982e.svg",
+    "static/media/GalaxyRaider.PNG": "/baspeirs.github.io/static/media/GalaxyRaider.d1e35e49.PNG",
+    "static/media/GitHubLogo.svg": "/baspeirs.github.io/static/media/GitHubLogo.5cff78e4.svg",
+    "static/media/InkCentral.PNG": "/baspeirs.github.io/static/media/InkCentral.aba2ae6a.PNG",
+    "static/media/LinkedInLogo.svg": "/baspeirs.github.io/static/media/LinkedInLogo.beb71356.svg",
+    "static/media/NoteTaker.PNG": "/baspeirs.github.io/static/media/NoteTaker.a8f4099c.PNG",
+    "static/media/Quickieoke.PNG": "/baspeirs.github.io/static/media/Quickieoke.f5ddf8cf.PNG",
+    "static/media/ReadmeGenerator.PNG": "/baspeirs.github.io/static/media/ReadmeGenerator.5678de29.PNG",
+    "static/media/Stars.mp4": "/baspeirs.github.io/static/media/Stars.1ceeeb40.mp4",
+    "static/media/WeatherApp.PNG": "/baspeirs.github.io/static/media/WeatherApp.1c06bab9.PNG",
     "static/media/style.css": "/baspeirs.github.io/static/media/nasa-Q1p7bh3SHj8-unsplash.1d801dd5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c21b0e5c.js",
-    "static/js/2.b19ef10d.chunk.js",
+    "static/js/2.18837800.chunk.js",
     "static/css/main.649357c9.chunk.css",
-    "static/js/main.24df3304.chunk.js"
+    "static/js/main.7fbc5eb0.chunk.js"
   ]
 }
