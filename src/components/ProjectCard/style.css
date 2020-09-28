@@ -1,6 +1,11 @@
 .card {
     margin-bottom: 15px;
-    max-height: 275px;
+    height: 240px;
+    width: 320px;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-img {
@@ -10,12 +15,12 @@
 
 .card-title {
     text-align: center;
-    font-size: 42px;
+    font-size: 30px;
 }
 
 .card-text {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .portButton {

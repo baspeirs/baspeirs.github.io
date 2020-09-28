@@ -25,7 +25,7 @@ function Home() {
                                 <h1>Bryce Speirs</h1>
                                 <h2>Full Stack Web Developer</h2>
                                 <p id="port-intro">Check out my portfolio</p>
-                                <a href="#/portfolio"><button id="home-button"><p>View Portfolio</p></button></a>
+                                <a href="#/portfolio"><button className="btn" id="home-button">View Portfolio</button></a>
                             </section>
                         </article>
                     </Column>

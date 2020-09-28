@@ -37,3 +37,7 @@
     border:none;
     margin-bottom: 50px;
 }
+
+#home-button:hover {
+    color:black;
+}
