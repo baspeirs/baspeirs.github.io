@@ -16,17 +16,17 @@ function About() {
 
             <Container id="page-body">
                 <Row>
-                    <Column size="6">
+                    <Column size="lg-6">
                         <h1>About Me</h1>
                     </Column>
-                    <Column size="6" />
+                    <Column size="lg-6" />
                 </Row>
                 <div id="top-content">
                 <Row>
-                        <Column size="2" id="image-holder">
+                        <Column size="lg-2" id="image-holder">
                                 <img id="profile-img" src={BryceSpeirs} alt="Bryce Speirs" />
                         </Column>
-                        <Column size="10" id="about-description">
+                        <Column size="lg-10" id="about-description">
                             <p id="welcome">Hello, welcome to my portfolio!</p>
                             <p>My name is Bryce, I am a passionate and dedicated full stack web developer, with a background in resturant operations and finance. Outside of work, you can find me geeking out on music, fantacy, video games, and various sports.</p>
                             

@@ -16,7 +16,7 @@ footer {
 
 #social-media {
     grid-column: 2;
-    text-align: right;
+    text-align: center;
     padding-bottom: 10px;
 }
 
@@ -29,6 +29,7 @@ footer p {
 }
 
 #contact-links {
+    text-align: center;
     grid-column: 3;
     display: grid;
     margin: 15px;
@@ -40,9 +41,9 @@ footer p {
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    text-align: center;
+    /* text-align: center; */
     margin: 5px;
-    align-content: center;
+    /* align-content: center; */
 
 }
 
