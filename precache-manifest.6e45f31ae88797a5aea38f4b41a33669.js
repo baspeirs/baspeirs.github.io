@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b761a18e60abb0a926411a5fdb622a44",
+    "revision": "9319bdce850762cba2298f42b9f39808",
     "url": "/baspeirs.github.io/index.html"
   },
   {
-    "revision": "d9a7c2869ab345724ecd",
-    "url": "/baspeirs.github.io/static/css/main.649357c9.chunk.css"
+    "revision": "35132be12f6e3ac48c7a",
+    "url": "/baspeirs.github.io/static/css/main.9b8bcb5e.chunk.css"
   },
   {
     "revision": "22fc317c640689440ecf",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baspeirs.github.io/static/js/2.18837800.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d9a7c2869ab345724ecd",
-    "url": "/baspeirs.github.io/static/js/main.7fbc5eb0.chunk.js"
+    "revision": "35132be12f6e3ac48c7a",
+    "url": "/baspeirs.github.io/static/js/main.ffa8d48b.chunk.js"
   },
   {
     "revision": "fecba3dfbe3c7f484d4d",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baspeirs.github.io/static/media/BryceSpeirs.4d357514.jpg"
   },
   {
-    "revision": "18c162a3373ddb715b68e2d2a0f56924",
-    "url": "/baspeirs.github.io/static/media/Burger.18c162a3.PNG"
+    "revision": "0dabd47120ae001a8cf0191110d44851",
+    "url": "/baspeirs.github.io/static/media/Burger.0dabd471.PNG"
   },
   {
     "revision": "3b07b790bcc62a70af2926a07f73f95e",
@@ -40,16 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baspeirs.github.io/static/media/EmailLogo.20e8982e.svg"
   },
   {
-    "revision": "d1e35e497bb2c3361745852d235d9cef",
-    "url": "/baspeirs.github.io/static/media/GalaxyRaider.d1e35e49.PNG"
+    "revision": "edea20710bd3eb1c3f2d6a8736dafd30",
+    "url": "/baspeirs.github.io/static/media/GalaxyRaider.edea2071.PNG"
   },
   {
     "revision": "5cff78e44ca42e5026f832f7b41fb018",
     "url": "/baspeirs.github.io/static/media/GitHubLogo.5cff78e4.svg"
-  },
-  {
-    "revision": "aba2ae6a19fe4ebd534548d6ce721cb7",
-    "url": "/baspeirs.github.io/static/media/InkCentral.aba2ae6a.PNG"
   },
   {
     "revision": "beb7135630c8d3725bc3571be62ad56a",
@@ -78,5 +74,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1d801dd5a6a5e44b7503e433b3a540b5",
     "url": "/baspeirs.github.io/static/media/nasa-Q1p7bh3SHj8-unsplash.1d801dd5.jpg"
+  },
+  {
+    "revision": "dad2af266c9fa5c6e003cf8ded8dc00d",
+    "url": "/baspeirs.github.io/static/media/tattoo.dad2af26.jpg"
   }
 ]);
