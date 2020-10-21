@@ -22,7 +22,7 @@ function Home() {
                     <Column size="8">
                         <article className="hero-body">
                             <section className="welcome">
-                                <h1>Bryce Speirs</h1>
+                                <h1 class="line-1 anim-typewriter" id="BryceSpeirs">Bryce Speirs</h1>
                                 <h2>Full Stack Web Developer</h2>
                                 <p id="port-intro">Check out my portfolio</p>
                                 <a href="#/portfolio"><button className="btn" id="home-button">View Portfolio</button></a>

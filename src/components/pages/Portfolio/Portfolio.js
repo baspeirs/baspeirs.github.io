@@ -9,9 +9,7 @@ import ProjectCard from "../../ProjectCard";
 import Badge from "../../Badge";
 import DungBud from "../../../assets/photos/DungBud.PNG";
 import GalaxyRaider from "../../../assets/photos/GalaxyRaider.PNG";
-import Burger from "../../../assets/photos/Burger.PNG";
-import NoteTaker from "../../../assets/photos/NoteTaker.PNG";
-import Quickieoke from "../../../assets/photos/Quickieoke.PNG";
+import ScheduleTracker from "../../../assets/photos/ScheduleTracker.PNG";
 import ReadmeGenerator from "../../../assets/photos/ReadmeGenerator.PNG";
 import WeatherApp from "../../../assets/photos/WeatherApp.PNG";
 // import InkCentral from "../../../assets/photos/InkCentral.PNG";
@@ -37,12 +35,12 @@ function Portfolio() {
             github: "https://github.com/baspeirs/Galaxy-Raider"
         },
         {
-            title: "Burger Logger",
-            imgSrc: Burger,
-            imgAlt: "Burger Logger home page",
-            description: "An application for you to keep track of your favorite burgers and burgers you wish to try!",
-            page: "https://nameless-inlet-77869.herokuapp.com/",
-            github: "https://github.com/baspeirs/Eat_Da_Burger"
+            title: "Schedule Tracker",
+            imgSrc: ScheduleTracker,
+            imgAlt: "Schedule Tracker page",
+            description: "An application to host an updateable Jimmy Johns weekly Schedule and make time off requests",
+            page: "https://myschedule1457.herokuapp.com/",
+            github: "https://github.com/baspeirs/ScheduleTracker"
         }
     ]
     const projects2 = [
@@ -70,26 +68,7 @@ function Portfolio() {
             page: "https://baspeirs.github.io/DungeonBuddy/",
             github: "https://github.com/baspeirs/DungeonBuddy"
         }
-    ]
-
-    const projects3 = [
-        {
-            title: "Note Taker",
-            imgSrc: NoteTaker,
-            imgAlt: "Note Taker home page",
-            description: "An application used to take, read, and delete notes",
-            page: "https://infinite-meadow-35708.herokuapp.com/",
-            github: "https://github.com/baspeirs/Note-Taker"
-        },
-        {
-            title: "Quickieoke",
-            imgSrc: Quickieoke,
-            imgAlt: "Quickieoke",
-            description: "Get singin with this karaoke buddy app",
-            page: "https://baspeirs.github.io/teamKaraokeApp/",
-            github: "https://github.com/baspeirs/teamKaraokeApp"
-        }
-    ]
+    ];
 
     const skills1 = [
         { name: "JavaScript / Node.js" },
@@ -105,7 +84,7 @@ function Portfolio() {
         { name: "React" },
         { name: "Git Source Control" },
         { name: "Python" }
-    ]
+    ];
 
     return (
         <div id="page-body">
