@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2071fed274ec55df3ccf2989b9371742",
+    "revision": "418e3b9905822da5323d9df6906ff463",
     "url": "/baspeirs.github.io/index.html"
   },
   {
-    "revision": "0aae5415f05770141768",
+    "revision": "e62a9959fec23fb41b67",
     "url": "/baspeirs.github.io/static/css/main.a8647de4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baspeirs.github.io/static/js/2.e0b7a018.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0aae5415f05770141768",
-    "url": "/baspeirs.github.io/static/js/main.4cad6f45.chunk.js"
+    "revision": "e62a9959fec23fb41b67",
+    "url": "/baspeirs.github.io/static/js/main.5aa4a07a.chunk.js"
   },
   {
     "revision": "fecba3dfbe3c7f484d4d",
