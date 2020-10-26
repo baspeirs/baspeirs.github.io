@@ -39,7 +39,7 @@ function Portfolio() {
             imgSrc: ScheduleTracker,
             imgAlt: "Schedule Tracker page",
             description: "An application to host an updateable Jimmy Johns weekly Schedule and make time off requests",
-            page: "https://myschedule1457.herokuapp.com/",
+            page: "https://scheduletracker2706.herokuapp.com/",
             github: "https://github.com/baspeirs/ScheduleTracker"
         }
     ]
