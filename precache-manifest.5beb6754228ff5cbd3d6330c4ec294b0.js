@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07b99ae7f03bc3647ad7515ad5fed718",
+    "revision": "c406fb10a677da191b4b4016fa3772b8",
     "url": "/baspeirs.github.io/index.html"
   },
   {
-    "revision": "a52e3b9fa93f66d78514",
-    "url": "/baspeirs.github.io/static/css/main.a8647de4.chunk.css"
+    "revision": "8cc2b96c4282e2f2a304",
+    "url": "/baspeirs.github.io/static/css/main.32c5ffe3.chunk.css"
   },
   {
     "revision": "2002804b899a9b06d1c4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baspeirs.github.io/static/js/2.e0b7a018.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a52e3b9fa93f66d78514",
-    "url": "/baspeirs.github.io/static/js/main.0a5ab233.chunk.js"
+    "revision": "8cc2b96c4282e2f2a304",
+    "url": "/baspeirs.github.io/static/js/main.7cc5a3e4.chunk.js"
   },
   {
     "revision": "fecba3dfbe3c7f484d4d",
@@ -32,20 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baspeirs.github.io/static/media/DungBud.3b07b790.PNG"
   },
   {
-    "revision": "20e8982ec7e03638afe27f5c3e897681",
-    "url": "/baspeirs.github.io/static/media/EmailLogo.20e8982e.svg"
-  },
-  {
     "revision": "edea20710bd3eb1c3f2d6a8736dafd30",
     "url": "/baspeirs.github.io/static/media/GalaxyRaider.edea2071.PNG"
-  },
-  {
-    "revision": "5cff78e44ca42e5026f832f7b41fb018",
-    "url": "/baspeirs.github.io/static/media/GitHubLogo.5cff78e4.svg"
-  },
-  {
-    "revision": "beb7135630c8d3725bc3571be62ad56a",
-    "url": "/baspeirs.github.io/static/media/LinkedInLogo.beb71356.svg"
   },
   {
     "revision": "5678de29df6190ab1de982f57a345cde",
@@ -62,6 +50,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1c06bab955aeb65babd44abeaa7d1842",
     "url": "/baspeirs.github.io/static/media/WeatherApp.1c06bab9.PNG"
+  },
+  {
+    "revision": "db0721b19bf1b047866172744342786f",
+    "url": "/baspeirs.github.io/static/media/github.db0721b1.svg"
+  },
+  {
+    "revision": "deda33aea2bfa9216df4b9abc2d17698",
+    "url": "/baspeirs.github.io/static/media/gmail.deda33ae.svg"
+  },
+  {
+    "revision": "4b475fb3f54b3e35daa04295ec48df4c",
+    "url": "/baspeirs.github.io/static/media/linkedin.4b475fb3.svg"
   },
   {
     "revision": "1d801dd5a6a5e44b7503e433b3a540b5",
