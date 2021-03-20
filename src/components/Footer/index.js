@@ -17,7 +17,10 @@ function Footer() {
                             <div className="col-3 contact-links"><a href="mailto:baspeirs@gmail.com"><img src={Gmail} alt="gmail logo" /></a></div>
                         </div>
                     </div>
-                    <p className="col-lg-4" id="phone-number">Contact Number: <a href="tel:5159549221">515-954-9221</a></p>
+                    <div className="col-lg-4">
+                        <p >Contact Number:</p>
+                        <a href="tel:5159549221">515-954-9221</a>
+                    </div>
                 </div>
             </div>
         </footer>
