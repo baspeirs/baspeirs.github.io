@@ -20,14 +20,10 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
-                    <div className="col-lg-4">
+                    <div className="col-lg-2">
                         <p >Contact Number:</p>
                         <a href="tel:5159549221">515-954-9221</a>
                     </div>
-=======
-                    <p className="col-lg-2" id="phone-number">Contact Number: <a href="tel:5159549221">515-954-9221</a></p>
->>>>>>> parent of a7ca2cd... changed footer icons
                 </div>
             </div>
         </footer>
