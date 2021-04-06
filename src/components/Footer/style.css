@@ -28,7 +28,7 @@ footer p {
     margin-top: 10px;
 }
 
-.contact-links {
+#contact-links {
     text-align: center;
     grid-column: 3;
     display: grid;

@@ -1,7 +1,7 @@
 import React from "react";
-import GitHub from "../../assets/photos/github.svg";
-import LinkedIn from "../../assets/photos/linkedin.svg";
-import Gmail from "../../assets/photos/gmail.svg";
+import GitHubLogo from "../../assets/photos/GitHubLogo.svg";
+import LinkedInLogo from "../../assets/photos/LinkedInLogo.svg";
+import EmailLogo from "../../assets/photos/EmailLogo.svg";
 import "./style.css";
 
 function Footer() {
@@ -9,18 +9,25 @@ function Footer() {
         <footer>
             <div className="container">
                 <div className="row">
-                    <p className="col-lg-4" id="signature">2020 Bryce Speirs</p>
-                    <div className="col-xl-4">
+                    <p className="col-lg-2" id="signature">2020 Bryce Speirs</p>
+                    <div className="col-xl-8">
                         <div className="row">
-                            <div className="col-3 contact-links"><a href="https://github.com/baspeirs"><img src={GitHub} alt="GitHub Logo" /></a></div>
-                            <div className="col-3 contact-links"><a href="https://www.linkedin.com/in/bryce-speirs-bb1319199/"><img src={LinkedIn} alt="LinkedIn logo" /></a></div>
-                            <div className="col-3 contact-links"><a href="mailto:baspeirs@gmail.com"><img src={Gmail} alt="gmail logo" /></a></div>
+                            <p className="col-xl-5" id="social-media">Social Media Links:</p>
+                            <div className="col-xl-5" id="contact-links">
+                                <div className="contact-image"><a href="https://github.com/baspeirs"><img src={GitHubLogo} alt="GitHub Logo" id="github-logo" /></a></div>
+                                <div className="contact-image"><a href="https://www.linkedin.com/in/bryce-speirs-bb1319199/"><img src={LinkedInLogo} alt="GitHub Logo" id="linkedin-logo" /></a></div>
+                                <div className="contact-image"><a href="mailto:baspeirs@gmail.com"><img src={EmailLogo} alt="GitHub Logo" id="mail-logo" /></a></div>
+                            </div>
                         </div>
                     </div>
+<<<<<<< HEAD
                     <div className="col-lg-4">
                         <p >Contact Number:</p>
                         <a href="tel:5159549221">515-954-9221</a>
                     </div>
+=======
+                    <p className="col-lg-2" id="phone-number">Contact Number: <a href="tel:5159549221">515-954-9221</a></p>
+>>>>>>> parent of a7ca2cd... changed footer icons
                 </div>
             </div>
         </footer>
