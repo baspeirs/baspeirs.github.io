@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/baspeirs.github.io/static/css/main.96d0d1b1.chunk.css",
-    "main.js": "/baspeirs.github.io/static/js/main.a63c6d1e.chunk.js",
-    "main.js.map": "/baspeirs.github.io/static/js/main.a63c6d1e.chunk.js.map",
+    "main.css": "/baspeirs.github.io/static/css/main.d23f5c11.chunk.css",
+    "main.js": "/baspeirs.github.io/static/js/main.dc7464d5.chunk.js",
+    "main.js.map": "/baspeirs.github.io/static/js/main.dc7464d5.chunk.js.map",
     "runtime-main.js": "/baspeirs.github.io/static/js/runtime-main.00b6c255.js",
     "runtime-main.js.map": "/baspeirs.github.io/static/js/runtime-main.00b6c255.js.map",
-    "static/js/2.7069a4dd.chunk.js": "/baspeirs.github.io/static/js/2.7069a4dd.chunk.js",
-    "static/js/2.7069a4dd.chunk.js.map": "/baspeirs.github.io/static/js/2.7069a4dd.chunk.js.map",
+    "static/js/2.08960f36.chunk.js": "/baspeirs.github.io/static/js/2.08960f36.chunk.js",
+    "static/js/2.08960f36.chunk.js.map": "/baspeirs.github.io/static/js/2.08960f36.chunk.js.map",
     "index.html": "/baspeirs.github.io/index.html",
-    "static/css/main.96d0d1b1.chunk.css.map": "/baspeirs.github.io/static/css/main.96d0d1b1.chunk.css.map",
-    "static/js/2.7069a4dd.chunk.js.LICENSE.txt": "/baspeirs.github.io/static/js/2.7069a4dd.chunk.js.LICENSE.txt",
+    "static/css/main.d23f5c11.chunk.css.map": "/baspeirs.github.io/static/css/main.d23f5c11.chunk.css.map",
+    "static/js/2.08960f36.chunk.js.LICENSE.txt": "/baspeirs.github.io/static/js/2.08960f36.chunk.js.LICENSE.txt",
     "static/media/BryceSpeirs.4c766ae2.jpg": "/baspeirs.github.io/static/media/BryceSpeirs.4c766ae2.jpg",
     "static/media/DungBud.b81ee867.PNG": "/baspeirs.github.io/static/media/DungBud.b81ee867.PNG",
-    "static/media/GalaxyRaider.7d1af816.PNG": "/baspeirs.github.io/static/media/GalaxyRaider.7d1af816.PNG",
     "static/media/ReadmeGenerator.5892eca5.PNG": "/baspeirs.github.io/static/media/ReadmeGenerator.5892eca5.PNG",
     "static/media/ScheduleTracker.b1791257.PNG": "/baspeirs.github.io/static/media/ScheduleTracker.b1791257.PNG",
     "static/media/Stars.8b473a6d.mp4": "/baspeirs.github.io/static/media/Stars.8b473a6d.mp4",
     "static/media/WeatherApp.d5ac6393.PNG": "/baspeirs.github.io/static/media/WeatherApp.d5ac6393.PNG",
     "static/media/email.507e95b6.svg": "/baspeirs.github.io/static/media/email.507e95b6.svg",
+    "static/media/galaxyRaider.7d1af816.PNG": "/baspeirs.github.io/static/media/galaxyRaider.7d1af816.PNG",
     "static/media/github.e8c48bc7.svg": "/baspeirs.github.io/static/media/github.e8c48bc7.svg",
     "static/media/linkedin.8f3ee2e4.svg": "/baspeirs.github.io/static/media/linkedin.8f3ee2e4.svg",
     "static/media/style.css": "/baspeirs.github.io/static/media/nasa-Q1p7bh3SHj8-unsplash.ae8ebf5a.jpg",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.00b6c255.js",
-    "static/js/2.7069a4dd.chunk.js",
-    "static/css/main.96d0d1b1.chunk.css",
-    "static/js/main.a63c6d1e.chunk.js"
+    "static/js/2.08960f36.chunk.js",
+    "static/css/main.d23f5c11.chunk.css",
+    "static/js/main.dc7464d5.chunk.js"
   ]
 }
