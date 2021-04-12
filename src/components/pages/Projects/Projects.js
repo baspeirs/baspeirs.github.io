@@ -1,18 +1,14 @@
 import React from "react";
 import Container from "../../Container";
 import Row from "../../Row";
-import Column from "../../Column";
-import Footer from "../../Footer/";
+// import Column from "../../Column";
 import "./style.css";
-// import Background from "../../Background";
 import ProjectCard from "../../ProjectCard";
-import Badge from "../../Badge";
 import DungBud from "../../../assets/photos/DungBud.PNG";
 import GalaxyRaider from "../../../assets/photos/galaxyRaider.PNG";
 import ScheduleTracker from "../../../assets/photos/ScheduleTracker.PNG";
 import ReadmeGenerator from "../../../assets/photos/ReadmeGenerator.PNG";
 import WeatherApp from "../../../assets/photos/WeatherApp.PNG";
-// import InkCentral from "../../../assets/photos/InkCentral.PNG";
 import Tattoo from "../../../assets/photos/tattoo.jpg";
 
 
@@ -28,7 +24,7 @@ function Portfolio() {
         },
         {
             title: "Galaxy Raider",
-            imgSrc: "../../../assets/photos/galaxyRaider.PNG",
+            imgSrc: GalaxyRaider,
             imgAlt: "Galaxy Raider home page",
             description: "Explore the galaxy and collect resources to take back to your home planet.",
             page: "https://bc-group-project2.herokuapp.com/",
@@ -70,50 +66,10 @@ function Portfolio() {
         }
     ];
 
-    const skills1 = [
-        { name: "JavaScript / Node.js" },
-        { name: "SQL / Sequelize" },
-        { name: "NoSQL / Mongoose" }
-    ]
-    const skills2 = [
-        { name: "HTML5 / CSS3" },
-        { name: "Bootstrap" },
-        { name: "CSS Grid" }
-    ]
-    const skills3 = [
-        { name: "React" },
-        { name: "Git Source Control" },
-        { name: "Python" }
-    ];
-
     return (
-        <div id="page-body">
-
+        <div id="projects">
             <Container>
-                <Row>
-                    <Column size="4">
-                        <h1>Portfolio</h1>
-                    </Column>
-                    <Column size="8" />
-                </Row>
-                <h2>Skills</h2>
-                <Row>
-                    <Column size="md-4">
-                        {skills1.map(skill => {
-                            return <Badge skill={skill.name} />
-                        })}
-                    </Column>
-                    <Column size="md-4">
-                        {skills2.map(skill => {
-                            return <Badge skill={skill.name} />
-                        })}
-                    </Column>
-                    <Column size="md-4">
-                        {skills3.map(skill => {
-                            return <Badge skill={skill.name} />
-                        })}
-                    </Column>
-                </Row>
+                <div id="projectsToggle"></div>
                 <h2>Projects</h2>
                 <Row>
                     {projects1.map(project => {
@@ -139,8 +95,8 @@ function Portfolio() {
                         />
                     })}
                 </Row>
+                
             </Container>
-            <Footer />
         </div>
     )
 }

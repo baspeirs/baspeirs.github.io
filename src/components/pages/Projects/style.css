@@ -1,32 +1,9 @@
-#page-body {
-    background: url("../../../assets/photos/nasa-Q1p7bh3SHj8-unsplash.jpg")no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
+#projects {
+    height: 100vh;
 }
 
-#skills {
-    color: black;
-    font-weight: bold;
-    font-size: 24px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin-bottom: 30px;
-}
-
-#skills-1 {
-    margin-right: 15px;
-}
-
-#skills-2 {
-    margin-right: 15px;
-}
-
-#skills-3 {
-    margin-right: 15px;
-}
-
-#skills-4 {
-    margin-right: 15px;
+#projectsToggle {
+    height: 7vh;
 }
 
 .proj-div {

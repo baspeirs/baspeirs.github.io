@@ -1,23 +1,29 @@
 import React from 'react';
-import { HashRouter as Router, Route } from "react-router-dom";
+// import { HashRouter as Router, Route } from "react-router-dom";
 import './App.css';
+import Stars from "./assets/photos/Stars.mp4";
 import Home from "./components/pages/Home/Home";
 import About from "./components/pages/About/About";
-import Portfolio from "./components/pages/Portfolio/Portfolio";
+import Projects from "./components/pages/Projects/Projects";
 import NavTabs from './components/NavTabs';
+import Footer from './components/Footer';
+import Skills from './components/pages/Skills/Skills';
 
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <div>
-          <NavTabs />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/about" component={About} />
-        </div>
-      </Router>
+      <NavTabs />
+      <div id="hero-section">
+        <video autoPlay muted loop id="hero-video">
+          <source src={Stars} />
+        </video>
+      </div>
+      <Home />
+      <Projects />
+      <Skills />
+      <About />
+      <Footer />
     </div>
   );
 }

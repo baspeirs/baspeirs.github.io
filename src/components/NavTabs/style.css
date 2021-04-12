@@ -1,0 +1,11 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}

@@ -1,9 +1,7 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import "./style.css";
 
 function NavTabs() {
-  const location = useLocation();
-
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <p class="navbar-brand">Bryce Speirs</p>
@@ -12,14 +10,17 @@ function NavTabs() {
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-          <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>Home</Link>
+          <li className="nav-item active" id="homeNav">
+          <a href="#home">Home</a>
           </li>
-          <li class="nav-item">
-          <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Link>
+          <li className="nav-item">
+          <a href="#projectsToggle" id="projectsNav">Projects</a>
           </li>
-          <li class="nav-item">
-          <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>About Me</Link>
+          <li className="nav-item">
+          <a href="#skillsToggle" id="portfolioNav">Skills</a>
+          </li>
+          <li className="nav-item">
+          <a href="#about" id="aboutNav">About</a>
           </li>
         </ul>
       </div>

@@ -2,9 +2,7 @@ import React from "react";
 import Container from "../../Container";
 import Row from "../../Row";
 import Column from "../../Column";
-import Footer from "../../Footer/";
 import "./style.css";
-// import Background from "../../Background";
 import EducationCard from "../../EducationCard";
 import WorkHistoryCard from "../../WorkHistoryCard/";
 import workHistory from "../../../workHistory.json";
@@ -12,8 +10,7 @@ import education from "../../../education.json";
 import BryceSpeirs from "../../../assets/photos/BryceSpeirs.jpg";
 function About() {
     return (
-        <div id="page-body">
-
+        <div id="about">
             <Container id="page-body">
                 <Row>
                     <Column size="lg-6">
@@ -61,7 +58,6 @@ function About() {
 
                 <div class="spacer"></div>
             </Container>
-            <Footer />
         </div>
     )
 }
