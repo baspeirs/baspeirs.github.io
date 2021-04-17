@@ -9,8 +9,8 @@
 
 #projectsHeader {
     text-align: center;
-    margin-bottom: 15px;
-    border-bottom: solid rgb(0, 173, 144);
+    margin-bottom: 50px;
+    text-decoration: underline rgb(0, 173, 144);
 }
 
 .card-img {

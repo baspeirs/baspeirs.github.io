@@ -13,20 +13,20 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin-bottom: 30px;
+    text-align: center;
 }
 
-#skills-1 {
-    margin-right: 15px;
+#skillsHeader {
+    margin-bottom: 50px;
+    text-decoration: underline rgb(0, 173, 144);
 }
 
-#skills-2 {
-    margin-right: 15px;
+.skill {
+    color: white;
+    margin-bottom: 15px;
+    font-size: larger;
 }
 
-#skills-3 {
-    margin-right: 15px;
-}
-
-#skills-4 {
-    margin-right: 15px;
+.skillSymbol {
+    color: rgb(0, 173, 144);
 }

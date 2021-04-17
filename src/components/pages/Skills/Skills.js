@@ -26,7 +26,7 @@ function Skills() {
         <div id="skills">
             <Container>
                 <div id="skillsToggle"></div>
-                <h2>Skills</h2>
+                <h2 id="skillsHeader">Skills</h2>
                 <Row>
                     <Column size="md-4">
                         {skills1.map(skill => {
