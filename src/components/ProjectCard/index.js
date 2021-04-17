@@ -7,7 +7,7 @@ function ProjectCard(props) {
     return (
         
             <Column size="xl-4">
-                <div className="card bg-dark text-white">
+                <div className="card bg-dark text-white proj-div">
                     <img src={props.imgSrc} className="card-img" alt={props.imgAlt} />
                     <div className="card-img-overlay">
                         <h5 className="card-title">{props.title}</h5>

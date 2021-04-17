@@ -10,6 +10,7 @@ import ScheduleTracker from "../../../assets/photos/ScheduleTracker.PNG";
 import ReadmeGenerator from "../../../assets/photos/ReadmeGenerator.PNG";
 import WeatherApp from "../../../assets/photos/WeatherApp.PNG";
 import Tattoo from "../../../assets/photos/tattoo.jpg";
+import Column from "../../Column";
 
 
 function Portfolio() {
@@ -70,7 +71,13 @@ function Portfolio() {
         <div id="projects">
             <Container>
                 <div id="projectsToggle"></div>
-                <h2>Projects</h2>
+                <Row>
+                    <Column size="4"></Column>
+                    <Column size="4">
+                        <h2 id="projectsHeader">Projects</h2>
+                    </Column>
+                    <Column size="4"></Column>
+                </Row>
                 <Row>
                     {projects1.map(project => {
                         return <ProjectCard
@@ -95,7 +102,6 @@ function Portfolio() {
                         />
                     })}
                 </Row>
-                
             </Container>
         </div>
     )
