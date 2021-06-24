@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a4d94a60.chunk.css",
-    "main.js": "/static/js/main.c317cb07.chunk.js",
-    "main.js.map": "/static/js/main.c317cb07.chunk.js.map",
+    "main.css": "/static/css/main.e392c4ce.chunk.css",
+    "main.js": "/static/js/main.edd2c719.chunk.js",
+    "main.js.map": "/static/js/main.edd2c719.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.03887cff.js",
     "runtime-main.js.map": "/static/js/runtime-main.03887cff.js.map",
     "static/js/2.ee74610f.chunk.js": "/static/js/2.ee74610f.chunk.js",
     "static/js/2.ee74610f.chunk.js.map": "/static/js/2.ee74610f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a4d94a60.chunk.css.map": "/static/css/main.a4d94a60.chunk.css.map",
+    "static/css/main.e392c4ce.chunk.css.map": "/static/css/main.e392c4ce.chunk.css.map",
     "static/js/2.ee74610f.chunk.js.LICENSE.txt": "/static/js/2.ee74610f.chunk.js.LICENSE.txt",
     "static/media/BryceSpeirs.4c766ae2.jpg": "/static/media/BryceSpeirs.4c766ae2.jpg",
     "static/media/DungBud.b81ee867.PNG": "/static/media/DungBud.b81ee867.PNG",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.03887cff.js",
     "static/js/2.ee74610f.chunk.js",
-    "static/css/main.a4d94a60.chunk.css",
-    "static/js/main.c317cb07.chunk.js"
+    "static/css/main.e392c4ce.chunk.css",
+    "static/js/main.edd2c719.chunk.js"
   ]
 }
