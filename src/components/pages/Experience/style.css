@@ -1,0 +1,33 @@
+#experienceHeader {
+    margin-bottom: 50px;
+    text-decoration: underline rgb(0, 173, 144);
+    text-align: center;
+}
+
+#xpToggle {
+    height: 7vh;
+}
+
+#school {
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#work {
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.experienceSub {
+    font-family: 'Rajdhani', sans-serif;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}

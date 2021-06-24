@@ -3,60 +3,34 @@ import Container from "../../Container";
 import Row from "../../Row";
 import Column from "../../Column";
 import "./style.css";
-import EducationCard from "../../EducationCard";
-import WorkHistoryCard from "../../WorkHistoryCard/";
-import workHistory from "../../../workHistory.json";
-import education from "../../../education.json";
 import BryceSpeirs from "../../../assets/photos/BryceSpeirs.jpg";
 function About() {
     return (
         <div id="about">
             <Container id="page-body">
+            <div id="aboutToggle"></div>
                 <Row>
-                    <Column size="lg-6">
-                        <h1>About Me</h1>
+                    <Column size="lg-12">
+                        <h1 id="aboutHeader">About Me</h1>
                     </Column>
-                    <Column size="lg-6" />
                 </Row>
                 <div id="top-content">
                 <Row>
-                        <Column size="lg-3">
+                        <Column size="lg-12">
                             <div id="image-holder">
                                 <img id="profile-img" src={BryceSpeirs} alt="Bryce Speirs" />
                             </div>
                         </Column>
-                        <Column size="lg-9" id="about-description">
+                </Row>
+                <Row>
+                <Column size="lg-12" id="about-description">
                             <div id="about-description">
-                            <p id="welcome">Hello, welcome to my portfolio!</p>
-                            <p>My name is Bryce, I am a passionate and dedicated full stack web developer, with a background in resturant operations and finance. Outside of work, you can find me geeking out on music, fantasy, video games, and various sports.</p>
+                            <p id="welcome">Thank you for viewing my portfolio!</p>
+                            <p>You may have noticed by now that I am a passionate and dedicated software engineer, with expeirence in full stack web development and Robotic Process Automation. I truly enjoy about my work as an engineer and am not afraid to branch out of my comfort zone. Outside of work, you can find me playing or listening to  music, enjoying any type of fantasy, playing video games, or watching baseball.</p>
                             </div>
                         </Column>
                 </Row>
                 </div>
-                <Row>
-                    <Column size="lg-6">
-                        <h2>Education</h2>
-                        {education.map(school => {
-                            return <EducationCard 
-                                school={school.school}
-                                term={school.term}
-                                completion={school.completion}
-                            />
-                        })}
-                    </Column>
-                    <Column size="lg-6">
-                        <h2>Work History</h2>
-                        {workHistory.map(job => {
-                            return <WorkHistoryCard 
-                                employer={job.employer}
-                                title={job.title}
-                                term={job.term}
-                            />
-                        })}
-                    </Column>
-                </Row>
-
-                <div class="spacer"></div>
             </Container>
         </div>
     )

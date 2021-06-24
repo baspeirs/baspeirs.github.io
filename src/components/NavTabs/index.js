@@ -20,6 +20,9 @@ function NavTabs() {
           <a href="#skillsToggle" id="portfolioNav">Skills</a>
           </li>
           <li className="nav-item">
+          <a href="#xpToggle" id="xpNav">Experience</a>
+          </li>
+          <li className="nav-item">
           <a href="#about" id="aboutNav">About</a>
           </li>
         </ul>

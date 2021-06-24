@@ -8,6 +8,7 @@ import Projects from "./components/pages/Projects/Projects";
 import NavTabs from './components/NavTabs';
 import Footer from './components/Footer';
 import Skills from './components/pages/Skills/Skills';
+import Experience from './components/pages/Experience/Experience';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Home />
       <Projects />
       <Skills />
+      <Experience />
       <About />
       <Footer />
     </div>
