@@ -32,15 +32,23 @@ function Portfolio() {
             github: "https://github.com/baspeirs/Galaxy-Raider"
         },
         {
+            title: "Dungeon Buddy",
+            imgSrc: DungBud,
+            imgAlt: "Dungeon Buddy home hage",
+            description: "An application to assist you with your every day Dungeons & Dragons 5th Edition needs!",
+            page: "https://baspeirs.github.io/DungeonBuddy/",
+            github: "https://github.com/baspeirs/DungeonBuddy"
+        }
+    ]
+    const projects2 = [
+        {
             title: "Schedule Tracker",
             imgSrc: ScheduleTracker,
             imgAlt: "Schedule Tracker page",
             description: "An application to host an updateable Jimmy Johns weekly Schedule and make time off requests",
             page: "https://scheduletracker2706.herokuapp.com/",
             github: "https://github.com/baspeirs/ScheduleTracker"
-        }
-    ]
-    const projects2 = [
+        },
         {
             title: "README Generator",
             imgSrc: ReadmeGenerator,
@@ -56,14 +64,6 @@ function Portfolio() {
             description: "An application that allows you to search for a city and get the current weather details.",
             page: "https://baspeirs.github.io/Open-Weather-App/",
             github: "https://github.com/baspeirs/Open-Weather-App"
-        },
-        {
-            title: "Dungeon Buddy",
-            imgSrc: DungBud,
-            imgAlt: "Dungeon Buddy home hage",
-            description: "An application to assist you with your every day Dungeons & Dragons 5th Edition needs!",
-            page: "https://baspeirs.github.io/DungeonBuddy/",
-            github: "https://github.com/baspeirs/DungeonBuddy"
         }
     ];
 
