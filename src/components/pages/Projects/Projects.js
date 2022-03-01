@@ -4,12 +4,10 @@ import Row from "../../Row";
 // import Column from "../../Column";
 import "./style.css";
 import ProjectCard from "../../ProjectCard";
-import DungBud from "../../../assets/photos/DungBud.PNG";
-import GalaxyRaider from "../../../assets/photos/galaxyRaider.PNG";
-import ScheduleTracker from "../../../assets/photos/ScheduleTracker.PNG";
-import ReadmeGenerator from "../../../assets/photos/ReadmeGenerator.PNG";
-import WeatherApp from "../../../assets/photos/WeatherApp.PNG";
-import Tattoo from "../../../assets/photos/tattoo.jpg";
+import DungBud from "../../../assets/photos/DungeonBuddy.PNG";
+import GalaxyRaider from "../../../assets/photos/GalaxyRaider3.PNG";
+import RedShift from "../../../assets/photos/RedShift.PNG";
+import Tattoo from "../../../assets/photos/InkCentral.PNG";
 import Column from "../../Column";
 
 
@@ -20,6 +18,7 @@ function Portfolio() {
             imgSrc: Tattoo,
             imgAlt: "Ink Central",
             description: "Sign up today to connect with Artists and Canvases alike on this tattoo social network",
+            poweredBy: "JavaScript, Node.js, React.js, MongoDB with Mongoose, Express.js, Filestack.js, Passport, Axios, Hero-Slider, Dotenv, HTML5, and CSS3. Website hosted with Heroku and repository stored on GitHub.",
             page: "https://ink-central.herokuapp.com/",
             github: "https://github.com/kylest0kes/ink_central"
         },
@@ -28,6 +27,7 @@ function Portfolio() {
             imgSrc: GalaxyRaider,
             imgAlt: "Galaxy Raider home page",
             description: "Explore the galaxy and collect resources to take back to your home planet.",
+            poweredBy: "JavaScript, Node.js, J-Query, SQL with Sequelize, Handlebars, Express.js, NES Framework, CSS Grid, CSS3, and HTML5. Website hosted with Heroku and repository stored on GitHub.",
             page: "https://bc-group-project2.herokuapp.com/",
             github: "https://github.com/baspeirs/Galaxy-Raider"
         },
@@ -36,34 +36,18 @@ function Portfolio() {
             imgSrc: DungBud,
             imgAlt: "Dungeon Buddy home hage",
             description: "An application to assist you with your every day Dungeons & Dragons 5th Edition needs!",
+            poweredBy: "Javascript, J-Query, Bootstrap, HTML5, and CSS3. Repository and Page hosted on Github/Github Pages.",
             page: "https://baspeirs.github.io/DungeonBuddy/",
             github: "https://github.com/baspeirs/DungeonBuddy"
-        }
-    ]
-    const projects2 = [
-        {
-            title: "Schedule Tracker",
-            imgSrc: ScheduleTracker,
-            imgAlt: "Schedule Tracker page",
-            description: "An application to host an updateable Jimmy Johns weekly Schedule and make time off requests",
-            page: "https://scheduletracker2706.herokuapp.com/",
-            github: "https://github.com/baspeirs/ScheduleTracker"
         },
         {
-            title: "README Generator",
-            imgSrc: ReadmeGenerator,
-            imgAlt: "README Generator in action",
-            description: "An aplication built to ask a few questions and automatically gnerate a good README.md file",
-            page: "",
-            github: "https://github.com/baspeirs/README-Generator"
-        },
-        {
-            title: "Open Weather App",
-            imgSrc: WeatherApp,
-            imgAlt: "Open Weather App home page",
-            description: "An application that allows you to search for a city and get the current weather details.",
-            page: "https://baspeirs.github.io/Open-Weather-App/",
-            github: "https://github.com/baspeirs/Open-Weather-App"
+            title: "Redshift",
+            imgSrc: RedShift,
+            imgAlt: "Redshift Guild page",
+            description: "A homepage created for a World of Warcraft Classic guild with a built in Live Roster, which can be updated using a google sheet.",
+            poweredBy: "JavaScript, J-Query, Google Cloud Platform, Google Sheets API, Bootstrap, HTML5, and CSS3. Page hosted with Heroku and repository stored on GitHub.",
+            page: "https://github.com/baspeirs/Redshift",
+            github: "https://redshift-guild.herokuapp.com/"
         }
     ];
 
@@ -72,11 +56,9 @@ function Portfolio() {
             <Container>
                 <div id="projectsToggle"></div>
                 <Row>
-                    <Column size="4"></Column>
-                    <Column size="4">
+                    <Column size="12">
                         <h2 id="projectsHeader">Projects</h2>
                     </Column>
-                    <Column size="4"></Column>
                 </Row>
                 <Row>
                     {projects1.map(project => {
@@ -85,18 +67,7 @@ function Portfolio() {
                             description={project.description}
                             imgSrc={project.imgSrc}
                             imgAlt={project.imgAlt}
-                            page={project.page}
-                            github={project.github}
-                        />
-                    })}
-                </Row>
-                <Row>
-                    {projects2.map(project => {
-                        return <ProjectCard
-                            title={project.title}
-                            description={project.description}
-                            imgSrc={project.imgSrc}
-                            imgAlt={project.imgAlt}
+                            poweredBy={project.poweredBy}
                             page={project.page}
                             github={project.github}
                         />

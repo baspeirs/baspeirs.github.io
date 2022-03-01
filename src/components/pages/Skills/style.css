@@ -30,3 +30,9 @@
 .skillSymbol {
     color: rgb(0, 173, 144);
 }
+
+@media only screen and (max-width: 600px) {
+    #skills {
+        height: 100%;
+    }
+}
