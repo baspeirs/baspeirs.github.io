@@ -9,18 +9,20 @@ function Skills() {
     const skills1 = [
         { name: "JavaScript / Node.js" },
         { name: "SQL / Sequelize" },
-        { name: "NoSQL / Mongoose" }
-    ]
-    const skills2 = [
+        { name: "NoSQL / Mongoose" },
         { name: "HTML5 / CSS3" },
         { name: "Bootstrap" },
-        { name: "CSS Grid" }
-    ]
-    const skills3 = [
+        { name: "CSS Grid" },
         { name: "React" },
         { name: "Git Source Control" },
-        { name: "Python" }
-    ];
+        { name: "Python" },
+        { name: "Google Cloud Platform"},
+        { name: "Azure"},
+        { name: "Express.js"},
+        { name: "jQuery"},
+        { name: "APIs"},
+        { name: "JSON"}
+    ]
 
     return (
         <div id="skills">
@@ -28,21 +30,11 @@ function Skills() {
                 <div id="skillsToggle"></div>
                 <h2 id="skillsHeader">Skills</h2>
                 <Row>
-                    <Column size="md-4">
-                        {skills1.map(skill => {
-                            return <Badge skill={skill.name} />
-                        })}
-                    </Column>
-                    <Column size="md-4">
-                        {skills2.map(skill => {
-                            return <Badge skill={skill.name} />
-                        })}
-                    </Column>
-                    <Column size="md-4">
-                        {skills3.map(skill => {
-                            return <Badge skill={skill.name} />
-                        })}
-                    </Column>
+                    {skills1.map(skill => {
+                        return <Column size="md-4">
+                            <Badge skill={skill.name}/>
+                        </Column>
+                    })};
                 </Row>
             </Container>
         </div>

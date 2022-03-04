@@ -46,8 +46,8 @@ function Portfolio() {
             imgAlt: "Redshift Guild page",
             description: "A homepage created for a World of Warcraft Classic guild with a built in Live Roster, which can be updated using a google sheet.",
             poweredBy: "JavaScript, J-Query, Google Cloud Platform, Google Sheets API, Bootstrap, HTML5, and CSS3. Page hosted with Heroku and repository stored on GitHub.",
-            page: "https://github.com/baspeirs/Redshift",
-            github: "https://redshift-guild.herokuapp.com/"
+            page: "https://redshift-guild.herokuapp.com/",
+            github: "https://github.com/baspeirs/Redshift"
         }
     ];
 
