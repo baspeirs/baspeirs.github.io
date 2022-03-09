@@ -2,6 +2,10 @@
     height: 7vh;
 }
 
+#about {
+    min-height: 80vh;
+}
+
 #aboutHeader {
     margin-bottom: 50px;
     text-decoration: underline rgb(0, 173, 144);
@@ -26,6 +30,7 @@
 #welcome {
     font-weight: bold;
     font-size: 40px;
+    margin-top: 50px;
 }
 
 #about-description {
