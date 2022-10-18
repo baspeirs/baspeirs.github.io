@@ -25,3 +25,7 @@ p {
 html {
   scroll-behavior: smooth;
 }
+
+.toggle {
+  margin-bottom: 50px;
+}

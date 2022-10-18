@@ -7,7 +7,7 @@ function About() {
     return (
         <div id="about">
             <Container id="page-body">
-            <div id="aboutToggle"></div>
+            <div id="aboutToggle" className="toggle"></div>
                 <Row>
                     <Column size="lg-12">
                         <h1 id="aboutHeader">About Me</h1>

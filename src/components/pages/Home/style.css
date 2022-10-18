@@ -14,7 +14,11 @@
 .welcome {
     color: white;
     text-align: center;
-    padding-top: 23vh;
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 94vh;
 }
 
 #port-intro {

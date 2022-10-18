@@ -24,7 +24,7 @@ function Skills() {
     return (
         <div id="skills">
             <Container>
-                <div id="skillsToggle"></div>
+                <div id="skillsToggle" className="toggle"></div>
                 <h2 id="skillsHeader">Skills</h2>
                 <Row>
                     {skills1.map(skill => {

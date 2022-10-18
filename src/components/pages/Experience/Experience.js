@@ -10,7 +10,7 @@ import education from "../../../education.json";
 
 function Experience() {
     return (
-        <div id="experience">
+        <div id="experience" className="toggle">
             <Container>
                 <div id="xpToggle"></div>
             <h2 id="experienceHeader" >Experience</h2>

@@ -17,7 +17,7 @@ function Portfolio() {
         {
             title: "Schedule Tracker Pro",
             imgSrc: SchedudleTrackerPro,
-            imgAlt: "Schedule Tracker Pro",
+            imgAlt: "ScheduleTrackerPro",
             description: "Supply staff with a web based schedule, while you update it on a simple spreadsheet",
             poweredBy: "JavaScript, Node.js, React.js, MongoDB with Mongoose, Express.js, Passport, Axios, Dotenv, GoogleApis, Google Cloud Platform, Google Sheets, MongoDB Atlas, HTML5, and CSS3. Website hosted with Heroku and repository stored on GitHub.",
             page: "https://scheduletrackerpro.herokuapp.com/",
@@ -26,7 +26,7 @@ function Portfolio() {
         {
             title: "Ink Central",
             imgSrc: Tattoo,
-            imgAlt: "Ink Central",
+            imgAlt: "InkCentral",
             description: "Sign up today to connect with Artists and Canvases alike on this tattoo social network",
             poweredBy: "JavaScript, Node.js, React.js, MongoDB with Mongoose, Express.js, Filestack.js, Passport, Axios, Hero-Slider, Dotenv, HTML5, and CSS3. Website hosted with Heroku and repository stored on GitHub.",
             page: "https://ink-central.herokuapp.com/",
@@ -35,7 +35,7 @@ function Portfolio() {
         {
             title: "Galaxy Raider",
             imgSrc: GalaxyRaider,
-            imgAlt: "Galaxy Raider home page",
+            imgAlt: "GalaxyRaider",
             description: "Explore the galaxy and collect resources to take back to your home planet.",
             poweredBy: "JavaScript, Node.js, J-Query, SQL with Sequelize, Handlebars, Express.js, NES Framework, CSS Grid, CSS3, and HTML5. Website hosted with Heroku and repository stored on GitHub.",
             page: "https://bc-group-project2.herokuapp.com/",
@@ -44,7 +44,7 @@ function Portfolio() {
         {
             title: "Dungeon Buddy",
             imgSrc: DungBud,
-            imgAlt: "Dungeon Buddy home hage",
+            imgAlt: "DungeonBuddy",
             description: "An application to assist you with your every day Dungeons & Dragons 5th Edition needs!",
             poweredBy: "Javascript, J-Query, Bootstrap, HTML5, and CSS3. Repository and Page hosted on Github/Github Pages.",
             page: "https://baspeirs.github.io/DungeonBuddy/",
@@ -53,7 +53,7 @@ function Portfolio() {
         {
             title: "Redshift",
             imgSrc: RedShift,
-            imgAlt: "Redshift Guild page",
+            imgAlt: "RedshiftGuild",
             description: "A homepage created for a World of Warcraft Classic guild with a built in Live Roster, which can be updated using a google sheet.",
             poweredBy: "JavaScript, J-Query, Google Cloud Platform, Google Sheets API, Bootstrap, HTML5, and CSS3. Page hosted with Heroku and repository stored on GitHub.",
             page: "https://redshift-guild.herokuapp.com/",
@@ -64,7 +64,7 @@ function Portfolio() {
     return (
         <div id="projects">
             <Container>
-                <div id="projectsToggle"></div>
+                <div id="projectsToggle" className="toggle"></div>
                 <Row>
                     <Column size="12">
                         <h2 id="projectsHeader">Projects</h2>
