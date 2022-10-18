@@ -7,18 +7,15 @@ import "./style.css";
 
 function Skills() {
     const skills1 = [
+        { name: "React.js" },
         { name: "JavaScript / Node.js" },
+        { name: "MongoDB / Mongoose" },
+        { name: "Express.js"},
+        { name: "Google Cloud Platform"},
         { name: "SQL / Sequelize" },
-        { name: "NoSQL / Mongoose" },
         { name: "HTML5 / CSS3" },
         { name: "Bootstrap" },
-        { name: "CSS Grid" },
-        { name: "React" },
         { name: "Git Source Control" },
-        { name: "Python" },
-        { name: "Google Cloud Platform"},
-        { name: "Azure"},
-        { name: "Express.js"},
         { name: "jQuery"},
         { name: "APIs"},
         { name: "JSON"}

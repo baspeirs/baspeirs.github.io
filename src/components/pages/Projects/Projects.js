@@ -9,10 +9,20 @@ import GalaxyRaider from "../../../assets/photos/GalaxyRaider3.PNG";
 import RedShift from "../../../assets/photos/RedShift.PNG";
 import Tattoo from "../../../assets/photos/InkCentral.PNG";
 import Column from "../../Column";
+import SchedudleTrackerPro from "../../../assets/photos/ScheduleTrackerPro.png"
 
 
 function Portfolio() {
     const projects1 = [
+        {
+            title: "Schedule Tracker Pro",
+            imgSrc: SchedudleTrackerPro,
+            imgAlt: "Schedule Tracker Pro",
+            description: "Supply staff with a web based schedule, while you update it on a simple spreadsheet",
+            poweredBy: "JavaScript, Node.js, React.js, MongoDB with Mongoose, Express.js, Passport, Axios, Dotenv, GoogleApis, Google Cloud Platform, Google Sheets, MongoDB Atlas, HTML5, and CSS3. Website hosted with Heroku and repository stored on GitHub.",
+            page: "https://scheduletrackerpro.herokuapp.com/",
+            github: "https://github.com/baspeirs/ScheduleTrackerPro"
+        },
         {
             title: "Ink Central",
             imgSrc: Tattoo,
