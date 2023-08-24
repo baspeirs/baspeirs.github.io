@@ -23,15 +23,15 @@ function Portfolio() {
             page: "https://scheduletrackerpro.herokuapp.com/",
             github: "https://github.com/baspeirs/ScheduleTrackerPro"
         },
-        {
-            title: "Ink Central",
-            imgSrc: Tattoo,
-            imgAlt: "InkCentral",
-            description: "Sign up today to connect with Artists and Canvases alike on this tattoo social network",
-            poweredBy: "JavaScript, Node.js, React.js, MongoDB with Mongoose, Express.js, Filestack.js, Passport, Axios, Hero-Slider, Dotenv, HTML5, and CSS3. Website hosted with Heroku and repository stored on GitHub.",
-            page: "https://ink-central.herokuapp.com/",
-            github: "https://github.com/kylest0kes/ink_central"
-        },
+        // {
+        //     title: "Ink Central",
+        //     imgSrc: Tattoo,
+        //     imgAlt: "InkCentral",
+        //     description: "Sign up today to connect with Artists and Canvases alike on this tattoo social network",
+        //     poweredBy: "JavaScript, Node.js, React.js, MongoDB with Mongoose, Express.js, Filestack.js, Passport, Axios, Hero-Slider, Dotenv, HTML5, and CSS3. Website hosted with Heroku and repository stored on GitHub.",
+        //     page: "https://ink-central.herokuapp.com/",
+        //     github: "https://github.com/kylest0kes/ink_central"
+        // },
         {
             title: "Galaxy Raider",
             imgSrc: GalaxyRaider,
