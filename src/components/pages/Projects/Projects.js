@@ -23,6 +23,7 @@ function Portfolio() {
             page: "https://scheduletrackerpro.herokuapp.com/",
             github: "https://github.com/baspeirs/ScheduleTrackerPro"
         },
+        // data for ink central repository when production site is working again
         // {
         //     title: "Ink Central",
         //     imgSrc: Tattoo,
