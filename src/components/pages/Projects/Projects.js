@@ -7,7 +7,7 @@ import ProjectCard from "../../ProjectCard";
 import DungBud from "../../../assets/photos/DungeonBuddy.PNG";
 import GalaxyRaider from "../../../assets/photos/GalaxyRaider3.PNG";
 import RedShift from "../../../assets/photos/RedShift.PNG";
-import Tattoo from "../../../assets/photos/InkCentral.PNG";
+// import Tattoo from "../../../assets/photos/InkCentral.PNG";
 import Column from "../../Column";
 import SchedudleTrackerPro from "../../../assets/photos/ScheduleTrackerPro.png"
 
