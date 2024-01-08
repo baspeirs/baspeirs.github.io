@@ -1,0 +1,27 @@
+.expand-collapse-button {
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: #fff;    
+    margin-top: 60px;
+}
+
+.expand-collapse-button:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #ffff;
+}
+
+.expand-collapse-button p {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .expand-collapse-button p {
+        font-size: 16px
+    }
+}

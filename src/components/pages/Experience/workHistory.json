@@ -1,0 +1,26 @@
+[
+    [
+        {
+            "title": "Principal Financial Software Engineer II",
+            "description": "React, JavaScript/Node, Redux, HTML, CSS, Express, AWS Cloud, Jest, TDD, Java, REST, Spring, Graph QL",
+            "term": "2023-2023"
+        },
+        {
+            "title": "Deloitte DC Solution Associate / Software Engineer",
+            "description": "UiPath, UiPath Studio, UiPath Orchestrator, Robotic Enterprise Framework, SQL, HTML, CSS, Google Cloud Platform, Google Diologue Flow, C#, .NET",
+            "term": "2021-2023"
+        }
+    ],
+    [
+        {
+            "title": "Jimmy Johns Assistant Manager",
+            "description": "",
+            "term": "2011-2021"
+        },
+        {
+            "title": "Synchrony Financial",
+            "description": "",
+            "term": "2018-2020"
+        }
+    ]
+]

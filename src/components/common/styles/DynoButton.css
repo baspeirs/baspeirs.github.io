@@ -1,0 +1,41 @@
+.dyno-button {
+    display: flex;
+    border: none;
+    border-radius: 60.74px;
+    color: #ffff;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-text {
+    margin: 0;
+}
+
+.button-small {
+    padding: 10px 22px;
+}
+
+.button-large {
+    padding: 14px 26px;
+    font-size: 24px;
+}
+
+.button-fill {
+    background-color: #00947B;
+}
+
+.button-fill:hover {
+    background-color: #7d2f9e;
+    transition: background-color .5s ease
+}
+
+.button-transparent {
+    background-color: transparent;
+    border: solid #ffff 1px;
+}
+
+.button-transparent:hover {
+    background-color: #7d2f9e;
+    transition: background-color .5s ease
+}

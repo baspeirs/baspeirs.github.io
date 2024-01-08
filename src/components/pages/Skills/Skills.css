@@ -1,0 +1,43 @@
+#skills {
+    padding: 50px 0px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skills-header {
+    margin: 0;
+}
+
+.scroller {
+    overflow: hidden;
+}
+
+.scroller_inner {
+    margin: 0;
+    padding: 0;
+    padding-block: 1rem;
+    display: flex;
+    gap: 2rem;
+    animation: scroll 30s linear infinite;
+    width: max-content;
+}
+
+.tech-logo {
+    height: 75px;
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 1rem));
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #skills {
+        padding: 50px 15px;
+    }   
+}

@@ -1,31 +1,70 @@
-article {
-  min-height: 100%;
+body {
+  color: white;
+  font-family: Montserrat;
+  width: 100vw;
+}
+
+section {
+  min-height: 105vh;
 }
 
 h1 {
-  font-family: 'Rajdhani', sans-serif;
-  color: white;
-  font-size: 72pt;
-  font-weight: bold;
+  color: #FFF;
+  font-family: Noticia Text;
+  font-size: 79.334px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 h2 {
-  font-family: 'Rajdhani', sans-serif;
-  color: white;
-  font-size: 72px;
-  font-weight: bold;
-  padding-left: 5px;
+  color: #FFF;
+  font-family: Noticia Text;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h3 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h4 {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 p {
-  margin: 0px;
-  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18.467px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 .toggle {
   margin-bottom: 50px;
+}
+
+.page-sections {
+  transition: background-color 1s ease;
+}
+
+ul {
+  list-style-type: none;
 }
