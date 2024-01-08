@@ -1,7 +1,7 @@
 import SchedudleTrackerPro from "../../../assets/photos/ScheduleTrackerPro.png";
-import DungBud from "../../../assets/photos/DungeonBuddy.png";
+import DungBud from "../../../assets/photos/DungeonBuddy.PNG";
 import GalaxyRaider from "../../../assets/photos/GalaxyRaider.png";
-import RedShift from "../../../assets/photos/RedShift.png";
+import RedShift from "../../../assets/photos/RedShift.PNG";
 
 export const projectList = [
     {
