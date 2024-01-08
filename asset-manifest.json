@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b587967.css",
-    "main.js": "/static/js/main.46493e8e.js",
-    "static/media/Stars.mp4": "/static/media/Stars.8b473a6d625b373e7e05.mp4",
-    "static/media/ScheduleTrackerPro.png": "/static/media/ScheduleTrackerPro.04882f20a908aef8371d.png",
-    "static/media/RedShift.PNG": "/static/media/RedShift.6d36862c46320179fae1.PNG",
-    "static/media/DungeonBuddy.PNG": "/static/media/DungeonBuddy.7d803c04c52ebad6e752.PNG",
-    "static/media/GalaxyRaider3.PNG": "/static/media/GalaxyRaider3.6e3bf8afbaeb1044e027.PNG",
-    "static/media/github.svg": "/static/media/github.e8c48bc7372dca53c1562b71144c164b.svg",
-    "static/media/email.svg": "/static/media/email.507e95b66d2197c9b3f05d1dafe7bb85.svg",
+    "main.css": "/static/css/main.2d0cd1e4.css",
+    "main.js": "/static/js/main.723aef2e.js",
+    "static/media/hero-background.jpg": "/static/media/hero-background.54e6f8fceb47358ac7a7.jpg",
+    "static/media/GalaxyRaider.png": "/static/media/GalaxyRaider.deed126c31560a1a6101.png",
+    "static/media/RedShift.png": "/static/media/RedShift.c76f51ebbc4fa2697000.png",
+    "static/media/DungeonBuddy.png": "/static/media/DungeonBuddy.b39fb169708bc486308a.png",
+    "static/media/MySQL_Logo.png": "/static/media/MySQL_Logo.77724b63548364a2265a.png",
+    "static/media/github_logo.png": "/static/media/github_logo.eda973645a1fd3999a5c.png",
+    "static/media/ScheduleTrackerPro.png": "/static/media/ScheduleTrackerPro.02958f57771f0dd62993.png",
+    "static/media/Redux_Logo.png": "/static/media/Redux_Logo.ba0a91a0e07559aa60e9.png",
+    "static/media/MongoDB_Logo.png": "/static/media/MongoDB_Logo.eb62cb897b90728248d2.png",
+    "static/media/Express_Logo.png": "/static/media/Express_Logo.548f1cfd65ae2d062126.png",
     "index.html": "/index.html",
-    "static/media/linkedin.svg": "/static/media/linkedin.8f3ee2e4bce13f452203c6f5c705d9d4.svg",
-    "main.4b587967.css.map": "/static/css/main.4b587967.css.map",
-    "main.46493e8e.js.map": "/static/js/main.46493e8e.js.map"
+    "main.2d0cd1e4.css.map": "/static/css/main.2d0cd1e4.css.map",
+    "main.723aef2e.js.map": "/static/js/main.723aef2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b587967.css",
-    "static/js/main.46493e8e.js"
+    "static/css/main.2d0cd1e4.css",
+    "static/js/main.723aef2e.js"
   ]
 }
