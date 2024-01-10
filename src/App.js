@@ -40,7 +40,7 @@ function App() {
       <div className='page-sections' style={{ backgroundColor: backgroundColor }}>
         <Home changeBackground={changeBackground} />
         <Projects changeBackground={changeBackground} />
-        <section className='about-section'>
+        <section id='about-section'>
           <About />
           <div className='target-div' ref={aboutRef}></div>
           <Skills />

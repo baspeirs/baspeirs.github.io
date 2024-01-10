@@ -29,6 +29,7 @@ export const ProjectSection = (props) => {
                         buttonStyle='button-fill'
                         buttonSize='button-small'
                         link={props.project.page}
+                        newTab={true}
                     />
                     <DynoButton
                         icon='laptop_windows'
@@ -36,7 +37,7 @@ export const ProjectSection = (props) => {
                         buttonStyle='button-transparent'
                         buttonSize='button-small'
                         link={props.project.github}
-
+                        newTab={true}
                     />
                 </div>
             </div>

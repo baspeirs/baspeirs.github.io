@@ -1,7 +1,8 @@
 import React from "react";
 import "./About.css";
 import { DynoButton } from "../../common/components/DynoButton";
-function About(props) {
+
+function About() {
 
     return (
         <div id="about" className='about-block'>
@@ -15,6 +16,7 @@ function About(props) {
                 buttonStyle='button-transparent'
                 buttonSize='button-large'
                 link={'https://drive.google.com/file/d/1FOH3DflYbBTe2QXRi2Ob2KrSPHvND44G/view?usp=sharing'}
+                newTab={true}
             />
         </div>
     )

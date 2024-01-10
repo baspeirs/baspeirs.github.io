@@ -68,3 +68,7 @@ p {
 ul {
   list-style-type: none;
 }
+
+#about-section {
+  padding-top: 50px;
+}

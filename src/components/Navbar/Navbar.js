@@ -16,7 +16,7 @@ export const Navbar = () => {
                     <div className='nav-tabs nav-horizontal'>
                         <a className='nav-tab' href="#hero-section">Home</a>
                         <a className='nav-tab' href="#projects">Projects</a>
-                        <a className='nav-tab' href="#about">About</a>
+                        <a className='nav-tab' href="#about-section">About</a>
                     </div>
                 </div>
                 <div className='nav-right'>
@@ -37,7 +37,7 @@ export const Navbar = () => {
                 <div className={`nav-tabs nav-vertical`}>
                     <a className='nav-tab' href="#hero-section">Home</a>
                     <a className='nav-tab' href="#projects">Projects</a>
-                    <a className='nav-tab' href="#about">About</a>
+                    <a className='nav-tab' href="#about-section">About</a>
                 </div>
             </div>
         </div>
