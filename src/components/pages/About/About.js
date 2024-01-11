@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import { DynoButton } from "../../common/components/DynoButton";
+import DownloadIcon from '../../../assets/photos/Icons/icons8-download-32.png';
 
 function About() {
 
@@ -11,7 +12,7 @@ function About() {
                 <p className='about-details'>I am a dedicated software engineer with experience in Full Stack Web Development and Robotic Process Automation. I truly enjoy my work as an engineer and am not afraid to branch out of my comfort zone. Outside of work I enjoy music, video games, and baseball.</p>
             </div>
             <DynoButton
-                icon='download'
+                icon={DownloadIcon}
                 text='Download Resume'
                 buttonStyle='button-transparent'
                 buttonSize='button-large'

@@ -1,6 +1,9 @@
 import React, { useRef, useEffect } from "react";
 import "./Home.css";
 import { DynoButton } from "../../common/components/DynoButton";
+import LaptopIcon from '../../../assets/photos/Icons/icons8-laptop-32.png';
+import DownloadIcon from '../../../assets/photos/Icons/icons8-download-32.png';
+
 
 function Home({ changeBackground }) {
     const roles = ['Full Stack Developer.'];
@@ -23,14 +26,14 @@ function Home({ changeBackground }) {
                 <h1 className='hero-header'>{roles[0]}</h1>
                 <div id='hero-buttons'>
                     <DynoButton
-                        icon='laptop_windows'
+                        icon={LaptopIcon}
                         text='View Projects'
                         buttonStyle='button-fill'
                         buttonSize='button-large'
                         link='#projects'
                     />
                     <DynoButton
-                        icon='download'
+                        icon={DownloadIcon}
                         text='Download Resume'
                         buttonStyle='button-transparent'
                         buttonSize='button-large'
