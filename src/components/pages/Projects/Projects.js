@@ -5,7 +5,7 @@ import { ProjectSection } from "../../ProjectSection/ProjectSection";
 
 function Portfolio(props) {
     const isEven = (int) => {
-        return int % 2 == 0;
+        return int % 2 === 0;
     }
 
     return (

@@ -56,3 +56,24 @@
         height: 32vw;
     }
 }
+
+.project-details {
+    animation-name: slideIn;
+    animation-duration: .6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    /* animation-delay: 1s; */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 100;
+    }
+}

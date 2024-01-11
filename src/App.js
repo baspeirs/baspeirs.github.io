@@ -18,6 +18,7 @@ function App() {
       const entry = entries[0];
       if (entry.isIntersecting) {
         changeBackground('#002A5A')
+        // changeBackground('white')
       }
     })
     observer.observe(aboutRef.current)

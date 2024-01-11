@@ -1,7 +1,25 @@
 .exp-info-card {
     margin-top: 60px;
+    background-image: linear-gradient(to right, #00000000, #0000008f);
+    border-left: solid 1px #ffff;
+    border-radius: 5px;
+    box-shadow: 7px 7px 20px black;
+    padding: 0 10px 0 30px;
+    animation-name: slideIn;
 }
 
 .exp-title {
     margin: 20px 0px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 100;
+    }
 }

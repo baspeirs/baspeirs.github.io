@@ -1,8 +1,12 @@
-import React, { useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { DynoButton } from '../common/components/DynoButton'
 import './style.css';
 
 export const ProjectSection = (props) => {
+    const [scrolledOver, setScrolledOver] = useState ({
+        elementClass: 'empty',
+        scrolledOver: false
+    })
     const projectRef = useRef([])
 
     useEffect(() => {
@@ -10,15 +14,21 @@ export const ProjectSection = (props) => {
             const entry = entries[0];
             if (entry.isIntersecting) {
                 props.changeBackground(props.project.theme.background)
+                if (!scrolledOver.scrolledOver) {
+                    setScrolledOver({
+                        elementClass: 'project-details',
+                        scrolledOver: true
+                    });
+                }
             }
         })
         observer.observe(projectRef.current)
-    }, []);
+    }, [props.changeBackground, scrolledOver, props.project]);
 
     return (
         <section className={`project-section ${props.orientation}`}>
             <img className='project-img' src={props.project.imgSrc} alt={props.project.imgAlt} />
-            <div className='project-details' style={{ color: props.project.theme.text }}>
+            <div className={scrolledOver.elementClass} style={{ color: props.project.theme.text }}>
                 <h3 className="project-header" ref={projectRef}>{props.project.title}</h3>
                 <p className="project-description">{props.project.description}</p>
                 <p className="project-tech">{props.project.poweredBy}</p>
