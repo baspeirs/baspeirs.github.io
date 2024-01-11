@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
-import { DynoButton } from '../common/components/DynoButton'
+import { DynoButton } from '../common/components/DynoButton';
+import LaptopIcon from '../../assets/photos/Icons/icons8-laptop-32.png';
+import GitHubIcon from '../../assets/photos/Icons/icons8-github-32.png';
 import './style.css';
 
 export const ProjectSection = (props) => {
@@ -34,7 +36,7 @@ export const ProjectSection = (props) => {
                 <p className="project-tech">{props.project.poweredBy}</p>
                 <div className='button-container'>
                     <DynoButton
-                        icon='laptop_windows'
+                        icon={LaptopIcon}
                         text='View Page'
                         buttonStyle='button-fill'
                         buttonSize='button-small'
@@ -42,7 +44,7 @@ export const ProjectSection = (props) => {
                         newTab={true}
                     />
                     <DynoButton
-                        icon='laptop_windows'
+                        icon={GitHubIcon}
                         text='View GitHub'
                         buttonStyle='button-transparent'
                         buttonSize='button-small'

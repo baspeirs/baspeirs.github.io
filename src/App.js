@@ -17,8 +17,7 @@ function App() {
     const observer = new IntersectionObserver((entries) => {
       const entry = entries[0];
       if (entry.isIntersecting) {
-        changeBackground('#002A5A')
-        // changeBackground('white')
+        changeBackground('transparent')
       }
     })
     observer.observe(aboutRef.current)
@@ -29,25 +28,22 @@ function App() {
   };
 
   return (
-    <div className="App" style={{
-      backgroundImage: `url(${HeroImage})`,
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      height: '100vh',
-      overflowY: 'auto',
-      scrollBehavior: 'smooth'
-    }}>
-      <Navbar />
-      <div className='page-sections' style={{ backgroundColor: backgroundColor }}>
-        <Home changeBackground={changeBackground} />
-        <Projects changeBackground={changeBackground} />
-        <section id='about-section'>
-          <About />
-          <div className='target-div' ref={aboutRef}></div>
-          <Skills />
-          <Experience />
-          <Footer />
-        </section>
+    <div className="App">
+      <div className='wrapper'>
+        <Navbar />
+        <img className='hero-image' src={HeroImage} alt='hero' />
+        <div className='background-gradient'></div>
+        <div className='page-sections' style={{ backgroundColor: backgroundColor }}>
+          <Home changeBackground={changeBackground} />
+          <Projects changeBackground={changeBackground} />
+          <section id='about-section'>
+            <About />
+            <div className='target-div' ref={aboutRef}></div>
+            <Skills />
+            <Experience />
+            <Footer />
+          </section>
+        </div>
       </div>
     </div>
   );
