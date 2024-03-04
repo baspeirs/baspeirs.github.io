@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './Navbar.css';
 import { DynoButton } from "../common/components/DynoButton";
 import MenuIcon from '../../assets/photos/Icons/icons8-menu-32.png';
+import MailIcon from '../../assets/photos/Icons/icons8-email-32.png';
 
 export const Navbar = () => {
     const [showNavBottom, setShowNavBottom] = useState('hide')
@@ -21,11 +22,12 @@ export const Navbar = () => {
                 </div>
                 <div className='nav-right'>
                     <div className='button-screen-large'>
-                        <DynoButton
-                            icon='mail'
-                            text='Contact Me'
+                    <DynoButton
+                            icon={MailIcon}
+                            text='Contact'
                             buttonStyle='button-fill'
                             buttonSize='button-small'
+                            link='mailto:baspeirs@gmail.com'
                         />
                     </div>
                     <div className='button-screen-small'>
